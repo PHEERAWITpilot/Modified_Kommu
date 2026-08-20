@@ -1,0 +1,982 @@
+{"t": 1787143319.258454, "k": "rx", "addr": 814, "hex": "646464805090f57e", "src": 0}
+{"t": 1787143319.2666283, "k": "rx", "addr": 814, "hex": "646464805090f67d", "src": 0}
+{"t": 1787143319.2874496, "k": "rx", "addr": 814, "hex": "646464805090f77c", "src": 0}
+{"t": 1787143319.306745, "k": "rx", "addr": 814, "hex": "646464805090f87b", "src": 0}
+{"t": 1787143319.329196, "k": "carState", "vEgo": 5.188, "aEgo": -0.286, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143319.3295324, "k": "rx", "addr": 814, "hex": "646464805090f97a", "src": 0}
+{"t": 1787143319.346615, "k": "rx", "addr": 814, "hex": "646464805090fa79", "src": 0}
+{"t": 1787143319.3704662, "k": "rx", "addr": 814, "hex": "646464805090fb78", "src": 0}
+{"t": 1787143319.3804615, "k": "carState", "vEgo": 5.171, "aEgo": -0.322, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143319.3911848, "k": "rx", "addr": 814, "hex": "646464805090fc77", "src": 0}
+{"t": 1787143319.410027, "k": "rx", "addr": 814, "hex": "646464805090fd76", "src": 0}
+{"t": 1787143319.429497, "k": "rx", "addr": 814, "hex": "646464805090fe75", "src": 0}
+{"t": 1787143319.4412708, "k": "carState", "vEgo": 5.157, "aEgo": -0.264, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143319.4511447, "k": "rx", "addr": 814, "hex": "646464805090ff74", "src": 0}
+{"t": 1787143319.4707208, "k": "rx", "addr": 814, "hex": "646464805090f083", "src": 0}
+{"t": 1787143319.4880378, "k": "rx", "addr": 814, "hex": "646464805090f182", "src": 0}
+{"t": 1787143319.4979758, "k": "carState", "vEgo": 5.119, "aEgo": -0.433, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143319.5076153, "k": "rx", "addr": 814, "hex": "646464805090f281", "src": 0}
+{"t": 1787143319.5359578, "k": "rx", "addr": 814, "hex": "646464805090f380", "src": 0}
+{"t": 1787143319.547484, "k": "rx", "addr": 814, "hex": "646464805090f47f", "src": 0}
+{"t": 1787143319.5576122, "k": "carState", "vEgo": 5.091, "aEgo": -0.468, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143319.5732062, "k": "rx", "addr": 814, "hex": "646464805090f57e", "src": 0}
+{"t": 1787143319.59256, "k": "rx", "addr": 814, "hex": "646464805090f67d", "src": 0}
+{"t": 1787143319.6106572, "k": "rx", "addr": 814, "hex": "646464805090f77c", "src": 0}
+{"t": 1787143319.6110015, "k": "carState", "vEgo": 5.077, "aEgo": -0.39, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143319.630537, "k": "rx", "addr": 814, "hex": "646464805090f87b", "src": 0}
+{"t": 1787143319.658016, "k": "rx", "addr": 814, "hex": "646464805090f97a", "src": 0}
+{"t": 1787143319.6613884, "k": "carState", "vEgo": 5.066, "aEgo": -0.318, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143319.6777768, "k": "rx", "addr": 814, "hex": "646464805090fa79", "src": 0}
+{"t": 1787143319.6934483, "k": "rx", "addr": 814, "hex": "646464805090fb78", "src": 0}
+{"t": 1787143319.7133493, "k": "rx", "addr": 814, "hex": "646464805090fc77", "src": 0}
+{"t": 1787143319.7137578, "k": "carState", "vEgo": 5.053, "aEgo": -0.283, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143319.7337706, "k": "rx", "addr": 814, "hex": "646464805090fd76", "src": 0}
+{"t": 1787143319.7543578, "k": "rx", "addr": 814, "hex": "646464805090fe75", "src": 0}
+{"t": 1787143319.765207, "k": "rx", "addr": 814, "hex": "646464805090ff74", "src": 0}
+{"t": 1787143319.7657907, "k": "carState", "vEgo": 5.042, "aEgo": -0.245, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143319.7891824, "k": "rx", "addr": 814, "hex": "646464805090f083", "src": 0}
+{"t": 1787143319.807539, "k": "rx", "addr": 814, "hex": "646464805090f182", "src": 0}
+{"t": 1787143319.819323, "k": "carState", "vEgo": 5.026, "aEgo": -0.282, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143319.8275232, "k": "rx", "addr": 814, "hex": "646464805090f281", "src": 0}
+{"t": 1787143319.8475666, "k": "rx", "addr": 814, "hex": "646464805090f380", "src": 0}
+{"t": 1787143319.869673, "k": "rx", "addr": 814, "hex": "646464805090f47f", "src": 0}
+{"t": 1787143319.8701818, "k": "carState", "vEgo": 5.011, "aEgo": -0.279, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143319.8846614, "k": "rx", "addr": 814, "hex": "646464805090f57e", "src": 0}
+{"t": 1787143319.9137273, "k": "rx", "addr": 814, "hex": "646464805090f67d", "src": 0}
+{"t": 1787143319.9231083, "k": "carState", "vEgo": 4.977, "aEgo": -0.404, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143319.934727, "k": "rx", "addr": 814, "hex": "646464805090f77c", "src": 0}
+{"t": 1787143319.9542532, "k": "rx", "addr": 814, "hex": "646464805090f87b", "src": 0}
+{"t": 1787143319.9744449, "k": "rx", "addr": 814, "hex": "646464805090f97a", "src": 0}
+{"t": 1787143319.974865, "k": "carState", "vEgo": 4.966, "aEgo": -0.339, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143319.9961019, "k": "rx", "addr": 814, "hex": "646464805090fa79", "src": 0}
+{"t": 1787143320.012002, "k": "rx", "addr": 814, "hex": "646464805090fb78", "src": 0}
+{"t": 1787143320.0337172, "k": "rx", "addr": 814, "hex": "646464805090fc77", "src": 0}
+{"t": 1787143320.0352964, "k": "carState", "vEgo": 4.953, "aEgo": -0.274, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.0514803, "k": "rx", "addr": 814, "hex": "646464805090fd76", "src": 0}
+{"t": 1787143320.072773, "k": "rx", "addr": 814, "hex": "646464805090fe75", "src": 0}
+{"t": 1787143320.096776, "k": "rx", "addr": 814, "hex": "646464805090ff74", "src": 0}
+{"t": 1787143320.097317, "k": "carState", "vEgo": 4.933, "aEgo": -0.316, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.1063912, "k": "rx", "addr": 814, "hex": "646464805090f083", "src": 0}
+{"t": 1787143320.1255345, "k": "rx", "addr": 814, "hex": "646464805090f182", "src": 0}
+{"t": 1787143320.1455433, "k": "rx", "addr": 814, "hex": "646464805090f281", "src": 0}
+{"t": 1787143320.1561606, "k": "carState", "vEgo": 4.91, "aEgo": -0.352, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.1655307, "k": "rx", "addr": 814, "hex": "646464805090f380", "src": 0}
+{"t": 1787143320.186565, "k": "rx", "addr": 814, "hex": "646464805090f47f", "src": 0}
+{"t": 1787143320.2109158, "k": "rx", "addr": 814, "hex": "646464805090f57e", "src": 0}
+{"t": 1787143320.2117944, "k": "carState", "vEgo": 4.893, "aEgo": -0.348, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.2305856, "k": "rx", "addr": 814, "hex": "646464805090f67d", "src": 0}
+{"t": 1787143320.2504258, "k": "rx", "addr": 814, "hex": "646464805090f77c", "src": 0}
+{"t": 1787143320.271023, "k": "rx", "addr": 814, "hex": "646464805090f87b", "src": 0}
+{"t": 1787143320.2810874, "k": "carState", "vEgo": 4.847, "aEgo": -0.478, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.2910888, "k": "rx", "addr": 814, "hex": "646464805090f97a", "src": 0}
+{"t": 1787143320.3075197, "k": "rx", "addr": 814, "hex": "646464805090fa79", "src": 0}
+{"t": 1787143320.325157, "k": "rx", "addr": 814, "hex": "646464805090fb78", "src": 0}
+{"t": 1787143320.3346899, "k": "carState", "vEgo": 4.853, "aEgo": -0.212, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.3545015, "k": "rx", "addr": 814, "hex": "646464805090fc77", "src": 0}
+{"t": 1787143320.365209, "k": "rx", "addr": 814, "hex": "646464805090fd76", "src": 0}
+{"t": 1787143320.394574, "k": "rx", "addr": 814, "hex": "646464805090fe75", "src": 0}
+{"t": 1787143320.3951077, "k": "carState", "vEgo": 4.876, "aEgo": 0.081, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.4098926, "k": "rx", "addr": 814, "hex": "646464805090ff74", "src": 0}
+{"t": 1787143320.4284132, "k": "rx", "addr": 814, "hex": "646464805090f083", "src": 0}
+{"t": 1787143320.4500325, "k": "rx", "addr": 814, "hex": "646464805090f182", "src": 0}
+{"t": 1787143320.4512544, "k": "carState", "vEgo": 4.85, "aEgo": -0.193, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.4712732, "k": "rx", "addr": 814, "hex": "646464805090f281", "src": 0}
+{"t": 1787143320.4875042, "k": "rx", "addr": 814, "hex": "646464805090f380", "src": 0}
+{"t": 1787143320.5200691, "k": "carState", "vEgo": 4.835, "aEgo": -0.179, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.521934, "k": "rx", "addr": 814, "hex": "646464805090f47f", "src": 0}
+{"t": 1787143320.529689, "k": "rx", "addr": 814, "hex": "646464805090f57e", "src": 0}
+{"t": 1787143320.5470464, "k": "rx", "addr": 814, "hex": "646464805090f67d", "src": 0}
+{"t": 1787143320.5670083, "k": "rx", "addr": 814, "hex": "646464805090f77c", "src": 0}
+{"t": 1787143320.5769079, "k": "carState", "vEgo": 4.809, "aEgo": -0.297, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.5881784, "k": "rx", "addr": 814, "hex": "646464805090f87b", "src": 0}
+{"t": 1787143320.6071005, "k": "rx", "addr": 814, "hex": "646464805090f97a", "src": 0}
+{"t": 1787143320.63147, "k": "rx", "addr": 814, "hex": "646464805090fa79", "src": 0}
+{"t": 1787143320.631781, "k": "carState", "vEgo": 4.794, "aEgo": -0.306, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.6519516, "k": "rx", "addr": 814, "hex": "646464805090fb78", "src": 0}
+{"t": 1787143320.6708639, "k": "rx", "addr": 814, "hex": "646464805090fc77", "src": 0}
+{"t": 1787143320.6911771, "k": "rx", "addr": 814, "hex": "646464805090fd76", "src": 0}
+{"t": 1787143320.6921556, "k": "carState", "vEgo": 4.776, "aEgo": -0.318, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.7131178, "k": "rx", "addr": 814, "hex": "646464805090fe75", "src": 0}
+{"t": 1787143320.7294252, "k": "rx", "addr": 814, "hex": "646464805090ff74", "src": 0}
+{"t": 1787143320.74694, "k": "rx", "addr": 814, "hex": "646464805090f083", "src": 0}
+{"t": 1787143320.74785, "k": "carState", "vEgo": 4.756, "aEgo": -0.273, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.7665117, "k": "rx", "addr": 814, "hex": "646464805090f182", "src": 0}
+{"t": 1787143320.7854745, "k": "rx", "addr": 814, "hex": "646464805090f281", "src": 0}
+{"t": 1787143320.8060288, "k": "rx", "addr": 814, "hex": "646464805090f380", "src": 0}
+{"t": 1787143320.8068874, "k": "carState", "vEgo": 4.755, "aEgo": -0.13, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.8304327, "k": "rx", "addr": 814, "hex": "646464805090f47f", "src": 0}
+{"t": 1787143320.8501997, "k": "rx", "addr": 814, "hex": "646464805090f57e", "src": 0}
+{"t": 1787143320.8595994, "k": "carState", "vEgo": 4.72, "aEgo": -0.358, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.8700302, "k": "rx", "addr": 814, "hex": "646464805090f67d", "src": 0}
+{"t": 1787143320.8893876, "k": "rx", "addr": 814, "hex": "646464805090f77c", "src": 0}
+{"t": 1787143320.9094844, "k": "rx", "addr": 814, "hex": "646464805090f87b", "src": 0}
+{"t": 1787143320.9097376, "k": "carState", "vEgo": 4.697, "aEgo": -0.405, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.9346013, "k": "rx", "addr": 814, "hex": "646464805090f97a", "src": 0}
+{"t": 1787143320.9538593, "k": "rx", "addr": 814, "hex": "646464805090fa79", "src": 0}
+{"t": 1787143320.9642699, "k": "carState", "vEgo": 4.677, "aEgo": -0.38, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143320.9734447, "k": "rx", "addr": 814, "hex": "646464805090fb78", "src": 0}
+{"t": 1787143320.9952538, "k": "rx", "addr": 814, "hex": "646464805090fc77", "src": 0}
+{"t": 1787143321.0131896, "k": "rx", "addr": 814, "hex": "646464805090fd76", "src": 0}
+{"t": 1787143321.0154657, "k": "carState", "vEgo": 4.645, "aEgo": -0.489, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.042804, "k": "rx", "addr": 814, "hex": "646464805090fe75", "src": 0}
+{"t": 1787143321.0517502, "k": "rx", "addr": 814, "hex": "646464805090ff74", "src": 0}
+{"t": 1787143321.0755804, "k": "carState", "vEgo": 4.629, "aEgo": -0.391, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.0785167, "k": "rx", "addr": 814, "hex": "646464805090f083", "src": 0}
+{"t": 1787143321.0900173, "k": "rx", "addr": 814, "hex": "646464805090f182", "src": 0}
+{"t": 1787143321.1102784, "k": "rx", "addr": 814, "hex": "646464805090f281", "src": 0}
+{"t": 1787143321.1294541, "k": "rx", "addr": 814, "hex": "646464805090f380", "src": 0}
+{"t": 1787143321.1297028, "k": "carState", "vEgo": 4.606, "aEgo": -0.423, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.1446116, "k": "rx", "addr": 814, "hex": "646464805090f47f", "src": 0}
+{"t": 1787143321.1728394, "k": "rx", "addr": 814, "hex": "646464805090f57e", "src": 0}
+{"t": 1787143321.1856713, "k": "rx", "addr": 814, "hex": "7b6468873798f66c", "src": 0}
+{"t": 1787143321.186459, "k": "carState", "vEgo": 4.591, "aEgo": -0.33, "cruiseEnabled": false, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.2124705, "k": "rx", "addr": 814, "hex": "7b6468873798f76b", "src": 0}
+{"t": 1787143321.2127697, "k": "tx", "addr": 814, "hex": "666666884c18fee3", "src": 0}
+{"t": 1787143321.2339034, "k": "rx", "addr": 814, "hex": "7b6468873798f86a", "src": 0}
+{"t": 1787143321.234824, "k": "tx", "addr": 814, "hex": "646666884b18ffe5", "src": 0}
+{"t": 1787143321.2491708, "k": "rx", "addr": 814, "hex": "7b6468873798f969", "src": 0}
+{"t": 1787143321.2498176, "k": "tx", "addr": 814, "hex": "646666884b18f0f4", "src": 0}
+{"t": 1787143321.2505143, "k": "carState", "vEgo": 4.584, "aEgo": -0.284, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.26703, "k": "rx", "addr": 814, "hex": "7b6468873798fa68", "src": 0}
+{"t": 1787143321.2675703, "k": "tx", "addr": 814, "hex": "646666884b18f1f3", "src": 0}
+{"t": 1787143321.2902398, "k": "rx", "addr": 814, "hex": "7b6468873798fb67", "src": 0}
+{"t": 1787143321.29072, "k": "tx", "addr": 814, "hex": "646666884b18f2f2", "src": 0}
+{"t": 1787143321.3084645, "k": "rx", "addr": 814, "hex": "7b6468873798fc66", "src": 0}
+{"t": 1787143321.309356, "k": "carState", "vEgo": 4.555, "aEgo": -0.346, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.3263576, "k": "tx", "addr": 814, "hex": "646666884b18f3f1", "src": 0}
+{"t": 1787143321.32744, "k": "rx", "addr": 814, "hex": "7b6468873798fd65", "src": 0}
+{"t": 1787143321.3278677, "k": "tx", "addr": 814, "hex": "646666884b18f4f0", "src": 0}
+{"t": 1787143321.3518689, "k": "rx", "addr": 814, "hex": "7b6468873798fe64", "src": 0}
+{"t": 1787143321.352402, "k": "tx", "addr": 814, "hex": "646666884b18f5ef", "src": 0}
+{"t": 1787143321.3613126, "k": "carState", "vEgo": 4.541, "aEgo": -0.295, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.3706048, "k": "rx", "addr": 814, "hex": "7b6468873798ff63", "src": 0}
+{"t": 1787143321.3708348, "k": "tx", "addr": 814, "hex": "646666884b18f6ee", "src": 0}
+{"t": 1787143321.3922455, "k": "rx", "addr": 814, "hex": "7b6468873798f072", "src": 0}
+{"t": 1787143321.3947396, "k": "tx", "addr": 814, "hex": "646666884b18f7ed", "src": 0}
+{"t": 1787143321.4112806, "k": "rx", "addr": 814, "hex": "7b6468873798f171", "src": 0}
+{"t": 1787143321.4119005, "k": "tx", "addr": 814, "hex": "646666884b18f8ec", "src": 0}
+{"t": 1787143321.4123785, "k": "carState", "vEgo": 4.553, "aEgo": -0.093, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.4270897, "k": "tx", "addr": 814, "hex": "646666884b18f9eb", "src": 0}
+{"t": 1787143321.431074, "k": "rx", "addr": 814, "hex": "7b6468873798f270", "src": 0}
+{"t": 1787143321.4566166, "k": "rx", "addr": 814, "hex": "7b6468873798f36f", "src": 0}
+{"t": 1787143321.4570625, "k": "tx", "addr": 814, "hex": "646666884b18faea", "src": 0}
+{"t": 1787143321.463438, "k": "carState", "vEgo": 4.582, "aEgo": 0.166, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.479504, "k": "rx", "addr": 814, "hex": "7b6468873798f46e", "src": 0}
+{"t": 1787143321.4798183, "k": "tx", "addr": 814, "hex": "646666884b18fbe9", "src": 0}
+{"t": 1787143321.4946468, "k": "rx", "addr": 814, "hex": "7b6468873798f56d", "src": 0}
+{"t": 1787143321.4957752, "k": "tx", "addr": 814, "hex": "646666884b18fce8", "src": 0}
+{"t": 1787143321.5142887, "k": "rx", "addr": 814, "hex": "7b6468873798f66c", "src": 0}
+{"t": 1787143321.5145624, "k": "tx", "addr": 814, "hex": "646666884b18fde7", "src": 0}
+{"t": 1787143321.5147645, "k": "carState", "vEgo": 4.592, "aEgo": 0.181, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.5344038, "k": "rx", "addr": 814, "hex": "7b6468873798f76b", "src": 0}
+{"t": 1787143321.5346835, "k": "tx", "addr": 814, "hex": "646666884b18fee6", "src": 0}
+{"t": 1787143321.563731, "k": "rx", "addr": 814, "hex": "7b6468873798f86a", "src": 0}
+{"t": 1787143321.5654314, "k": "tx", "addr": 814, "hex": "646666884b18ffe5", "src": 0}
+{"t": 1787143321.5660899, "k": "carState", "vEgo": 4.615, "aEgo": 0.293, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.5717933, "k": "rx", "addr": 814, "hex": "7b6468873798f969", "src": 0}
+{"t": 1787143321.5724733, "k": "tx", "addr": 814, "hex": "646666884b18f0f4", "src": 0}
+{"t": 1787143321.5924008, "k": "rx", "addr": 814, "hex": "7b6468873798fa68", "src": 0}
+{"t": 1787143321.5936093, "k": "tx", "addr": 814, "hex": "646666884b18f1f3", "src": 0}
+{"t": 1787143321.6115422, "k": "rx", "addr": 814, "hex": "7b6468873798fb67", "src": 0}
+{"t": 1787143321.6117404, "k": "tx", "addr": 814, "hex": "646666884b18f2f2", "src": 0}
+{"t": 1787143321.6207535, "k": "carState", "vEgo": 4.602, "aEgo": 0.079, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.630482, "k": "rx", "addr": 814, "hex": "7b6468873798fc66", "src": 0}
+{"t": 1787143321.6307373, "k": "tx", "addr": 814, "hex": "646666884b18f3f1", "src": 0}
+{"t": 1787143321.6505027, "k": "rx", "addr": 814, "hex": "7b6468873798fd65", "src": 0}
+{"t": 1787143321.6506612, "k": "tx", "addr": 814, "hex": "656666884b18f4ef", "src": 0}
+{"t": 1787143321.6680038, "k": "rx", "addr": 814, "hex": "7b6468873798fe64", "src": 0}
+{"t": 1787143321.6685374, "k": "tx", "addr": 814, "hex": "656666884b18f5ee", "src": 0}
+{"t": 1787143321.6763742, "k": "carState", "vEgo": 4.609, "aEgo": 0.109, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.6948705, "k": "rx", "addr": 814, "hex": "7b6468873798ff63", "src": 0}
+{"t": 1787143321.696219, "k": "tx", "addr": 814, "hex": "656666884b18f6ed", "src": 0}
+{"t": 1787143321.7143838, "k": "rx", "addr": 814, "hex": "7b6468873798f072", "src": 0}
+{"t": 1787143321.714741, "k": "tx", "addr": 814, "hex": "656666884b18f7ec", "src": 0}
+{"t": 1787143321.7334473, "k": "rx", "addr": 814, "hex": "7b6468873798f171", "src": 0}
+{"t": 1787143321.733715, "k": "tx", "addr": 814, "hex": "656666884b18f8eb", "src": 0}
+{"t": 1787143321.7338915, "k": "carState", "vEgo": 4.587, "aEgo": -0.114, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.7558365, "k": "rx", "addr": 814, "hex": "7b6468873798f270", "src": 0}
+{"t": 1787143321.7577794, "k": "tx", "addr": 814, "hex": "656666884b18f9ea", "src": 0}
+{"t": 1787143321.7704678, "k": "rx", "addr": 814, "hex": "7b6468873798f36f", "src": 0}
+{"t": 1787143321.7706373, "k": "tx", "addr": 814, "hex": "656666884b18fae9", "src": 0}
+{"t": 1787143321.7895525, "k": "rx", "addr": 814, "hex": "7b6468873798f46e", "src": 0}
+{"t": 1787143321.7898421, "k": "carState", "vEgo": 4.594, "aEgo": -0.02, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.800596, "k": "tx", "addr": 814, "hex": "656666884b18fbe8", "src": 0}
+{"t": 1787143321.8094554, "k": "rx", "addr": 814, "hex": "7b6468873798f56d", "src": 0}
+{"t": 1787143321.8096087, "k": "tx", "addr": 814, "hex": "656666884b18fce7", "src": 0}
+{"t": 1787143321.831653, "k": "rx", "addr": 814, "hex": "7b6468873798f66c", "src": 0}
+{"t": 1787143321.8321226, "k": "tx", "addr": 814, "hex": "656666884b18fde6", "src": 0}
+{"t": 1787143321.8411849, "k": "carState", "vEgo": 4.608, "aEgo": 0.084, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.8486426, "k": "rx", "addr": 814, "hex": "7b6468873798f76b", "src": 0}
+{"t": 1787143321.848831, "k": "tx", "addr": 814, "hex": "656666884b18fee5", "src": 0}
+{"t": 1787143321.8734791, "k": "rx", "addr": 814, "hex": "7b6468873798f86a", "src": 0}
+{"t": 1787143321.8737597, "k": "tx", "addr": 814, "hex": "656666884b18ffe4", "src": 0}
+{"t": 1787143321.892431, "k": "rx", "addr": 814, "hex": "7b6468873798f969", "src": 0}
+{"t": 1787143321.8926277, "k": "tx", "addr": 814, "hex": "656666884b18f0f3", "src": 0}
+{"t": 1787143321.892782, "k": "carState", "vEgo": 4.597, "aEgo": -0.036, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.912661, "k": "rx", "addr": 814, "hex": "7b6468873798fa68", "src": 0}
+{"t": 1787143321.9133337, "k": "tx", "addr": 814, "hex": "656666884b18f1f2", "src": 0}
+{"t": 1787143321.9325848, "k": "rx", "addr": 814, "hex": "7b6468873798fb67", "src": 0}
+{"t": 1787143321.9328032, "k": "tx", "addr": 814, "hex": "656666884b18f2f1", "src": 0}
+{"t": 1787143321.9530218, "k": "rx", "addr": 814, "hex": "7b6468873798fc66", "src": 0}
+{"t": 1787143321.9537454, "k": "tx", "addr": 814, "hex": "656666884b18f3f0", "src": 0}
+{"t": 1787143321.9542038, "k": "carState", "vEgo": 4.597, "aEgo": -0.019, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143321.9788253, "k": "rx", "addr": 814, "hex": "7b6468873798fd65", "src": 0}
+{"t": 1787143321.9798343, "k": "tx", "addr": 814, "hex": "656666884b18f4ef", "src": 0}
+{"t": 1787143321.9870749, "k": "rx", "addr": 814, "hex": "7b6468873798fe64", "src": 0}
+{"t": 1787143321.9874785, "k": "tx", "addr": 814, "hex": "656666884b18f5ee", "src": 0}
+{"t": 1787143322.0062041, "k": "rx", "addr": 814, "hex": "7b6468873798ff63", "src": 0}
+{"t": 1787143322.0068693, "k": "tx", "addr": 814, "hex": "656666884b18f6ed", "src": 0}
+{"t": 1787143322.0075505, "k": "carState", "vEgo": 4.608, "aEgo": 0.081, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.026426, "k": "rx", "addr": 814, "hex": "7b6468873798f072", "src": 0}
+{"t": 1787143322.026567, "k": "tx", "addr": 814, "hex": "656666884b18f7ec", "src": 0}
+{"t": 1787143322.0462356, "k": "rx", "addr": 814, "hex": "7b6468873798f171", "src": 0}
+{"t": 1787143322.0564861, "k": "tx", "addr": 814, "hex": "656666884b18f8eb", "src": 0}
+{"t": 1787143322.0727863, "k": "rx", "addr": 814, "hex": "7b6468873798f270", "src": 0}
+{"t": 1787143322.0730639, "k": "tx", "addr": 814, "hex": "656666884b18f9ea", "src": 0}
+{"t": 1787143322.0732143, "k": "carState", "vEgo": 4.632, "aEgo": 0.214, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.0863633, "k": "rx", "addr": 814, "hex": "7b6468873798f36f", "src": 0}
+{"t": 1787143322.094715, "k": "tx", "addr": 814, "hex": "656666884b18fae9", "src": 0}
+{"t": 1787143322.1137066, "k": "rx", "addr": 814, "hex": "7b6468873798f46e", "src": 0}
+{"t": 1787143322.114604, "k": "tx", "addr": 814, "hex": "656666884b18fbe8", "src": 0}
+{"t": 1787143322.1339514, "k": "rx", "addr": 814, "hex": "7b6468873798f56d", "src": 0}
+{"t": 1787143322.1351159, "k": "tx", "addr": 814, "hex": "656666884b18fce7", "src": 0}
+{"t": 1787143322.1357517, "k": "carState", "vEgo": 4.649, "aEgo": 0.247, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.1546893, "k": "rx", "addr": 814, "hex": "7b6468873798f66c", "src": 0}
+{"t": 1787143322.1557977, "k": "tx", "addr": 814, "hex": "656666884b18fde6", "src": 0}
+{"t": 1787143322.1745367, "k": "rx", "addr": 814, "hex": "7b6468873798f76b", "src": 0}
+{"t": 1787143322.1755855, "k": "tx", "addr": 814, "hex": "656666884b18fee5", "src": 0}
+{"t": 1787143322.1895547, "k": "rx", "addr": 814, "hex": "7b6468873798f86a", "src": 0}
+{"t": 1787143322.1897027, "k": "tx", "addr": 814, "hex": "656666884b18ffe4", "src": 0}
+{"t": 1787143322.1899364, "k": "carState", "vEgo": 4.653, "aEgo": 0.174, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.2084556, "k": "rx", "addr": 814, "hex": "7b6468873798f969", "src": 0}
+{"t": 1787143322.2086174, "k": "tx", "addr": 814, "hex": "656666884b18f0f3", "src": 0}
+{"t": 1787143322.231111, "k": "rx", "addr": 814, "hex": "7b6468873798fa68", "src": 0}
+{"t": 1787143322.2312768, "k": "tx", "addr": 814, "hex": "656666884b18f1f2", "src": 0}
+{"t": 1787143322.2484913, "k": "rx", "addr": 814, "hex": "7b6468873798fb67", "src": 0}
+{"t": 1787143322.2486339, "k": "tx", "addr": 814, "hex": "656666884b18f2f1", "src": 0}
+{"t": 1787143322.2487736, "k": "carState", "vEgo": 4.683, "aEgo": 0.35, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.2674432, "k": "rx", "addr": 814, "hex": "7b6468873798fc66", "src": 0}
+{"t": 1787143322.267577, "k": "tx", "addr": 814, "hex": "656666884b18f3f0", "src": 0}
+{"t": 1787143322.2944767, "k": "rx", "addr": 814, "hex": "7b6468873798fd65", "src": 0}
+{"t": 1787143322.2947469, "k": "tx", "addr": 814, "hex": "656666884b18f4ef", "src": 0}
+{"t": 1787143322.3005054, "k": "carState", "vEgo": 4.667, "aEgo": 0.1, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.3147037, "k": "rx", "addr": 814, "hex": "7b6468873798fe64", "src": 0}
+{"t": 1787143322.315687, "k": "tx", "addr": 814, "hex": "656666884b18f5ee", "src": 0}
+{"t": 1787143322.3323877, "k": "rx", "addr": 814, "hex": "7b6468873798ff63", "src": 0}
+{"t": 1787143322.3326082, "k": "tx", "addr": 814, "hex": "656666884b18f6ed", "src": 0}
+{"t": 1787143322.3535695, "k": "rx", "addr": 814, "hex": "7b6468873798f072", "src": 0}
+{"t": 1787143322.3538747, "k": "tx", "addr": 814, "hex": "656666884b18f7ec", "src": 0}
+{"t": 1787143322.3540406, "k": "carState", "vEgo": 4.672, "aEgo": 0.104, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.3736038, "k": "rx", "addr": 814, "hex": "7b6468873798f171", "src": 0}
+{"t": 1787143322.373858, "k": "tx", "addr": 814, "hex": "656666884b18f8eb", "src": 0}
+{"t": 1787143322.3994954, "k": "rx", "addr": 814, "hex": "7b6468873798f270", "src": 0}
+{"t": 1787143322.400969, "k": "tx", "addr": 814, "hex": "656666884b18f9ea", "src": 0}
+{"t": 1787143322.4062045, "k": "rx", "addr": 814, "hex": "7b6468873798f36f", "src": 0}
+{"t": 1787143322.4065351, "k": "tx", "addr": 814, "hex": "656666884b18fae9", "src": 0}
+{"t": 1787143322.4071178, "k": "carState", "vEgo": 4.679, "aEgo": 0.116, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.4267535, "k": "rx", "addr": 814, "hex": "7b6468873798f46e", "src": 0}
+{"t": 1787143322.436964, "k": "tx", "addr": 814, "hex": "656666884b18fbe8", "src": 0}
+{"t": 1787143322.4474132, "k": "rx", "addr": 814, "hex": "7b6468873798f56d", "src": 0}
+{"t": 1787143322.448159, "k": "tx", "addr": 814, "hex": "656666884b18fce7", "src": 0}
+{"t": 1787143322.4681563, "k": "rx", "addr": 814, "hex": "7b6468873798f66c", "src": 0}
+{"t": 1787143322.4689615, "k": "tx", "addr": 814, "hex": "656666884b18fde6", "src": 0}
+{"t": 1787143322.469449, "k": "carState", "vEgo": 4.686, "aEgo": 0.119, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.4855402, "k": "rx", "addr": 814, "hex": "7b6468873798f76b", "src": 0}
+{"t": 1787143322.5009048, "k": "tx", "addr": 814, "hex": "656666884b18fee5", "src": 0}
+{"t": 1787143322.5102193, "k": "rx", "addr": 814, "hex": "7b6468873798f86a", "src": 0}
+{"t": 1787143322.510661, "k": "tx", "addr": 814, "hex": "656666884b18ffe4", "src": 0}
+{"t": 1787143322.5297725, "k": "rx", "addr": 814, "hex": "7b6468873798f969", "src": 0}
+{"t": 1787143322.5299168, "k": "tx", "addr": 814, "hex": "656666884b18f0f3", "src": 0}
+{"t": 1787143322.5300713, "k": "carState", "vEgo": 4.682, "aEgo": 0.018, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.5508468, "k": "rx", "addr": 814, "hex": "7b6468873798fa68", "src": 0}
+{"t": 1787143322.5516636, "k": "tx", "addr": 814, "hex": "656666884b18f1f2", "src": 0}
+{"t": 1787143322.569611, "k": "rx", "addr": 814, "hex": "7b6468873798fb67", "src": 0}
+{"t": 1787143322.5697558, "k": "tx", "addr": 814, "hex": "656666884b18f2f1", "src": 0}
+{"t": 1787143322.5806148, "k": "carState", "vEgo": 4.673, "aEgo": -0.056, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.5915315, "k": "rx", "addr": 814, "hex": "7b6468873798fc66", "src": 0}
+{"t": 1787143322.5917249, "k": "tx", "addr": 814, "hex": "656666884b18f3f0", "src": 0}
+{"t": 1787143322.6126206, "k": "rx", "addr": 814, "hex": "7b6468873798fd65", "src": 0}
+{"t": 1787143322.6128843, "k": "tx", "addr": 814, "hex": "656666884b18f4ef", "src": 0}
+{"t": 1787143322.6294053, "k": "rx", "addr": 814, "hex": "7b6468873798fe64", "src": 0}
+{"t": 1787143322.6295393, "k": "tx", "addr": 814, "hex": "656666884b18f5ee", "src": 0}
+{"t": 1787143322.640907, "k": "carState", "vEgo": 4.681, "aEgo": 0.015, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.6422894, "k": "abort", "reason": "TEC=84", "t_rel": 3.3928788609999856}
+{"t": 1787143322.6514478, "k": "rx", "addr": 814, "hex": "7b6468873798ff63", "src": 0}
+{"t": 1787143322.673406, "k": "rx", "addr": 814, "hex": "7b6468873798f072", "src": 0}
+{"t": 1787143322.6922467, "k": "rx", "addr": 814, "hex": "7b6468873798f171", "src": 0}
+{"t": 1787143322.6931195, "k": "carState", "vEgo": 4.693, "aEgo": 0.138, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.7164702, "k": "rx", "addr": 814, "hex": "7b6468873798f270", "src": 0}
+{"t": 1787143322.726389, "k": "rx", "addr": 814, "hex": "7b6468873798f36f", "src": 0}
+{"t": 1787143322.7432764, "k": "carState", "vEgo": 4.701, "aEgo": 0.123, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.752809, "k": "rx", "addr": 814, "hex": "7b6468873798f46e", "src": 0}
+{"t": 1787143322.7739758, "k": "rx", "addr": 814, "hex": "7b6468873798f56d", "src": 0}
+{"t": 1787143322.7947788, "k": "rx", "addr": 814, "hex": "7b6468873798f66c", "src": 0}
+{"t": 1787143322.7970653, "k": "carState", "vEgo": 4.697, "aEgo": 0.05, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.817682, "k": "rx", "addr": 814, "hex": "7b6468873798f76b", "src": 0}
+{"t": 1787143322.8266232, "k": "rx", "addr": 814, "hex": "7b6468873798f86a", "src": 0}
+{"t": 1787143322.8454454, "k": "rx", "addr": 814, "hex": "7b6468873798f969", "src": 0}
+{"t": 1787143322.8545208, "k": "carState", "vEgo": 4.713, "aEgo": 0.146, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.8653715, "k": "rx", "addr": 814, "hex": "7b6468873798fa68", "src": 0}
+{"t": 1787143322.884778, "k": "rx", "addr": 814, "hex": "7b6468873798fb67", "src": 0}
+{"t": 1787143322.9078188, "k": "rx", "addr": 814, "hex": "7b6468863798fc67", "src": 0}
+{"t": 1787143322.9087422, "k": "carState", "vEgo": 4.719, "aEgo": 0.13, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.9323738, "k": "rx", "addr": 814, "hex": "7b6468863798fd66", "src": 0}
+{"t": 1787143322.951233, "k": "rx", "addr": 814, "hex": "7b6468863798fe65", "src": 0}
+{"t": 1787143322.9615777, "k": "carState", "vEgo": 4.722, "aEgo": 0.098, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143322.97105, "k": "rx", "addr": 814, "hex": "7b6468863798ff64", "src": 0}
+{"t": 1787143322.9921043, "k": "rx", "addr": 814, "hex": "7b6468863798f073", "src": 0}
+{"t": 1787143323.0109634, "k": "rx", "addr": 814, "hex": "7b6468863798f172", "src": 0}
+{"t": 1787143323.012054, "k": "carState", "vEgo": 4.739, "aEgo": 0.213, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.0285342, "k": "rx", "addr": 814, "hex": "7b6468863798f271", "src": 0}
+{"t": 1787143323.045169, "k": "rx", "addr": 814, "hex": "7b6468863798f370", "src": 0}
+{"t": 1787143323.065367, "k": "carState", "vEgo": 4.767, "aEgo": 0.316, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.0746305, "k": "rx", "addr": 814, "hex": "7b6468863798f46f", "src": 0}
+{"t": 1787143323.093952, "k": "rx", "addr": 814, "hex": "7b6468863798f56e", "src": 0}
+{"t": 1787143323.1066573, "k": "rx", "addr": 814, "hex": "7b6468863798f66d", "src": 0}
+{"t": 1787143323.1210954, "k": "carState", "vEgo": 4.787, "aEgo": 0.363, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.134505, "k": "rx", "addr": 814, "hex": "7b6468863798f76c", "src": 0}
+{"t": 1787143323.1523848, "k": "rx", "addr": 814, "hex": "7b6468863798f86b", "src": 0}
+{"t": 1787143323.1714075, "k": "rx", "addr": 814, "hex": "7b6468853798f96b", "src": 0}
+{"t": 1787143323.1717253, "k": "carState", "vEgo": 4.834, "aEgo": 0.601, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.192564, "k": "rx", "addr": 814, "hex": "7b6468853798fa6a", "src": 0}
+{"t": 1787143323.2114563, "k": "rx", "addr": 814, "hex": "7b6468853798fb69", "src": 0}
+{"t": 1787143323.2225296, "k": "carState", "vEgo": 4.845, "aEgo": 0.407, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.2385433, "k": "rx", "addr": 814, "hex": "7b6468853798fc68", "src": 0}
+{"t": 1787143323.2464862, "k": "rx", "addr": 814, "hex": "7b6468853798fd67", "src": 0}
+{"t": 1787143323.2760918, "k": "carState", "vEgo": 4.878, "aEgo": 0.51, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.2797775, "k": "rx", "addr": 814, "hex": "7b6468853798fe66", "src": 0}
+{"t": 1787143323.2864804, "k": "rx", "addr": 814, "hex": "7b6468853798ff65", "src": 0}
+{"t": 1787143323.3065, "k": "rx", "addr": 814, "hex": "7b6468853798f074", "src": 0}
+{"t": 1787143323.3275175, "k": "carState", "vEgo": 4.901, "aEgo": 0.506, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.3280926, "k": "rx", "addr": 814, "hex": "7b6468853798f173", "src": 0}
+{"t": 1787143323.3499942, "k": "rx", "addr": 814, "hex": "7b6468853798f272", "src": 0}
+{"t": 1787143323.370417, "k": "rx", "addr": 814, "hex": "7b6468843798f372", "src": 0}
+{"t": 1787143323.3806322, "k": "carState", "vEgo": 4.942, "aEgo": 0.647, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.3916273, "k": "rx", "addr": 814, "hex": "7b6468843798f471", "src": 0}
+{"t": 1787143323.4110146, "k": "rx", "addr": 814, "hex": "7b6468843798f570", "src": 0}
+{"t": 1787143323.4299958, "k": "rx", "addr": 814, "hex": "7b6468843798f66f", "src": 0}
+{"t": 1787143323.4308372, "k": "carState", "vEgo": 4.996, "aEgo": 0.827, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.447615, "k": "rx", "addr": 814, "hex": "7b6468843798f76e", "src": 0}
+{"t": 1787143323.4735425, "k": "rx", "addr": 814, "hex": "7b6468843798f86d", "src": 0}
+{"t": 1787143323.4836886, "k": "carState", "vEgo": 5.069, "aEgo": 0.98, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.4925103, "k": "rx", "addr": 814, "hex": "7b6468843798f96c", "src": 0}
+{"t": 1787143323.504545, "k": "rx", "addr": 814, "hex": "7b6468843798fa6b", "src": 0}
+{"t": 1787143323.5334444, "k": "rx", "addr": 814, "hex": "7b6468843798fb6a", "src": 0}
+{"t": 1787143323.5338643, "k": "carState", "vEgo": 5.121, "aEgo": 1.017, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.54896, "k": "rx", "addr": 814, "hex": "7b6468843798fc69", "src": 0}
+{"t": 1787143323.5664256, "k": "rx", "addr": 814, "hex": "7b6468843798fd68", "src": 0}
+{"t": 1787143323.586439, "k": "rx", "addr": 814, "hex": "7b6468843798fe67", "src": 0}
+{"t": 1787143323.586685, "k": "carState", "vEgo": 5.17, "aEgo": 0.998, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.6065285, "k": "rx", "addr": 814, "hex": "7b6468843798ff66", "src": 0}
+{"t": 1787143323.626665, "k": "rx", "addr": 814, "hex": "7b6468843798f075", "src": 0}
+{"t": 1787143323.6375165, "k": "carState", "vEgo": 5.221, "aEgo": 0.99, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.6582286, "k": "rx", "addr": 814, "hex": "7b6468833798f175", "src": 0}
+{"t": 1787143323.6733637, "k": "rx", "addr": 814, "hex": "7b6468833798f274", "src": 0}
+{"t": 1787143323.6938686, "k": "rx", "addr": 814, "hex": "7b6468833798f373", "src": 0}
+{"t": 1787143323.6952274, "k": "carState", "vEgo": 5.27, "aEgo": 0.928, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.7144623, "k": "rx", "addr": 814, "hex": "7b6468833798f472", "src": 0}
+{"t": 1787143323.7337356, "k": "rx", "addr": 814, "hex": "7b6468833798f571", "src": 0}
+{"t": 1787143323.7583642, "k": "rx", "addr": 814, "hex": "7b6468833798f670", "src": 0}
+{"t": 1787143323.758838, "k": "carState", "vEgo": 5.333, "aEgo": 0.987, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.765433, "k": "rx", "addr": 814, "hex": "7b6468833798f76f", "src": 0}
+{"t": 1787143323.7870607, "k": "rx", "addr": 814, "hex": "7a6568834e98f857", "src": 0}
+{"t": 1787143323.8070195, "k": "rx", "addr": 814, "hex": "7a6568834e98f956", "src": 0}
+{"t": 1787143323.8155112, "k": "carState", "vEgo": 5.402, "aEgo": 1.066, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.8255603, "k": "rx", "addr": 814, "hex": "7a6568834e98fa55", "src": 0}
+{"t": 1787143323.8465228, "k": "rx", "addr": 814, "hex": "7a6568824e98fb55", "src": 0}
+{"t": 1787143323.8710375, "k": "rx", "addr": 814, "hex": "7a6568824e98fc54", "src": 0}
+{"t": 1787143323.8725362, "k": "carState", "vEgo": 5.452, "aEgo": 1.05, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.8904967, "k": "rx", "addr": 814, "hex": "7a6568824e98fd53", "src": 0}
+{"t": 1787143323.9094913, "k": "rx", "addr": 814, "hex": "7a6568824e98fe52", "src": 0}
+{"t": 1787143323.9297166, "k": "rx", "addr": 814, "hex": "7a6568824e98ff51", "src": 0}
+{"t": 1787143323.9304519, "k": "carState", "vEgo": 5.497, "aEgo": 0.924, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.9509964, "k": "rx", "addr": 814, "hex": "7a6568824e98f060", "src": 0}
+{"t": 1787143323.966536, "k": "rx", "addr": 814, "hex": "7a6568824e98f15f", "src": 0}
+{"t": 1787143323.9846563, "k": "carState", "vEgo": 5.55, "aEgo": 0.886, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143323.996155, "k": "rx", "addr": 814, "hex": "776668824e98f260", "src": 0}
+{"t": 1787143324.0137687, "k": "rx", "addr": 814, "hex": "776668824e98f35f", "src": 0}
+{"t": 1787143324.0334218, "k": "rx", "addr": 814, "hex": "776668824e98f45e", "src": 0}
+{"t": 1787143324.046116, "k": "rx", "addr": 814, "hex": "776668824e98f55d", "src": 0}
+{"t": 1787143324.0469956, "k": "carState", "vEgo": 5.598, "aEgo": 0.855, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.0691686, "k": "rx", "addr": 814, "hex": "776668824e98f65c", "src": 0}
+{"t": 1787143324.0865262, "k": "rx", "addr": 814, "hex": "776668824e98f75b", "src": 0}
+{"t": 1787143324.1081161, "k": "rx", "addr": 814, "hex": "776668824e98f85a", "src": 0}
+{"t": 1787143324.1089616, "k": "carState", "vEgo": 5.653, "aEgo": 0.893, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.1288538, "k": "rx", "addr": 814, "hex": "776668824e98f959", "src": 0}
+{"t": 1787143324.1470273, "k": "rx", "addr": 814, "hex": "776668824e98fa58", "src": 0}
+{"t": 1787143324.1770782, "k": "rx", "addr": 814, "hex": "776668824e98fb57", "src": 0}
+{"t": 1787143324.1793456, "k": "carState", "vEgo": 5.734, "aEgo": 1.015, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.195952, "k": "rx", "addr": 814, "hex": "776668824e98fc56", "src": 0}
+{"t": 1787143324.2133725, "k": "rx", "addr": 814, "hex": "746668824d98fd59", "src": 0}
+{"t": 1787143324.2345443, "k": "rx", "addr": 814, "hex": "746668824d98fe58", "src": 0}
+{"t": 1787143324.2361302, "k": "carState", "vEgo": 5.799, "aEgo": 1.054, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.2546418, "k": "rx", "addr": 814, "hex": "746668824d98ff57", "src": 0}
+{"t": 1787143324.278344, "k": "rx", "addr": 814, "hex": "746668824e98f065", "src": 0}
+{"t": 1787143324.286465, "k": "rx", "addr": 814, "hex": "746668824e98f164", "src": 0}
+{"t": 1787143324.2866929, "k": "carState", "vEgo": 5.845, "aEgo": 0.993, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.3082297, "k": "rx", "addr": 814, "hex": "746668824e98f263", "src": 0}
+{"t": 1787143324.3281398, "k": "rx", "addr": 814, "hex": "746668824e98f362", "src": 0}
+{"t": 1787143324.3384924, "k": "carState", "vEgo": 5.887, "aEgo": 0.953, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.3474324, "k": "rx", "addr": 814, "hex": "746668824e98f461", "src": 0}
+{"t": 1787143324.367607, "k": "rx", "addr": 814, "hex": "746668824e98f560", "src": 0}
+{"t": 1787143324.3925364, "k": "rx", "addr": 814, "hex": "746668824e98f65f", "src": 0}
+{"t": 1787143324.3929832, "k": "carState", "vEgo": 5.957, "aEgo": 1.058, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.4120271, "k": "rx", "addr": 814, "hex": "716668824d98f762", "src": 0}
+{"t": 1787143324.4314337, "k": "rx", "addr": 814, "hex": "716668824d98f861", "src": 0}
+{"t": 1787143324.4509983, "k": "rx", "addr": 814, "hex": "716668824d98f960", "src": 0}
+{"t": 1787143324.4520266, "k": "carState", "vEgo": 6.024, "aEgo": 1.175, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.4705167, "k": "rx", "addr": 814, "hex": "716668824d98fa5f", "src": 0}
+{"t": 1787143324.4855337, "k": "rx", "addr": 814, "hex": "716668824d98fb5e", "src": 0}
+{"t": 1787143324.516588, "k": "carState", "vEgo": 6.071, "aEgo": 0.905, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.5181618, "k": "rx", "addr": 814, "hex": "716668824d98fc5d", "src": 0}
+{"t": 1787143324.5359223, "k": "rx", "addr": 814, "hex": "716668824d98fd5c", "src": 0}
+{"t": 1787143324.5534468, "k": "rx", "addr": 814, "hex": "716668824d98fe5b", "src": 0}
+{"t": 1787143324.5742528, "k": "rx", "addr": 814, "hex": "716668824d98ff5a", "src": 0}
+{"t": 1787143324.5746253, "k": "carState", "vEgo": 6.095, "aEgo": 0.668, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.5905998, "k": "rx", "addr": 814, "hex": "716668824d98f069", "src": 0}
+{"t": 1787143324.6109931, "k": "rx", "addr": 814, "hex": "716668824d98f168", "src": 0}
+{"t": 1787143324.627562, "k": "rx", "addr": 814, "hex": "6f6668824d98f269", "src": 0}
+{"t": 1787143324.6279097, "k": "carState", "vEgo": 6.127, "aEgo": 0.664, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.647467, "k": "rx", "addr": 814, "hex": "6f6668824d98f368", "src": 0}
+{"t": 1787143324.6685247, "k": "rx", "addr": 814, "hex": "6f6668824d98f467", "src": 0}
+{"t": 1787143324.6790702, "k": "carState", "vEgo": 6.176, "aEgo": 0.793, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.6985016, "k": "rx", "addr": 814, "hex": "6f6668824d98f566", "src": 0}
+{"t": 1787143324.7053726, "k": "rx", "addr": 814, "hex": "6f6668824d98f665", "src": 0}
+{"t": 1787143324.7267485, "k": "rx", "addr": 814, "hex": "6f6668824d98f764", "src": 0}
+{"t": 1787143324.73562, "k": "carState", "vEgo": 6.224, "aEgo": 0.791, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.7460718, "k": "rx", "addr": 814, "hex": "6f6668824d98f863", "src": 0}
+{"t": 1787143324.7664819, "k": "rx", "addr": 814, "hex": "6f6668824d98f962", "src": 0}
+{"t": 1787143324.786128, "k": "rx", "addr": 814, "hex": "6f6668824e98fa60", "src": 0}
+{"t": 1787143324.7869632, "k": "carState", "vEgo": 6.268, "aEgo": 0.832, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.8094523, "k": "rx", "addr": 814, "hex": "6f6668824e98fb5f", "src": 0}
+{"t": 1787143324.8294487, "k": "rx", "addr": 814, "hex": "6f6668824e98fc5e", "src": 0}
+{"t": 1787143324.8398023, "k": "carState", "vEgo": 6.327, "aEgo": 0.985, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.8494904, "k": "rx", "addr": 814, "hex": "6f6668824e98fd5d", "src": 0}
+{"t": 1787143324.8733377, "k": "rx", "addr": 814, "hex": "6f6668824e98fe5c", "src": 0}
+{"t": 1787143324.8910496, "k": "rx", "addr": 814, "hex": "6f6668824e98ff5b", "src": 0}
+{"t": 1787143324.8920085, "k": "carState", "vEgo": 6.374, "aEgo": 0.971, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.9076922, "k": "rx", "addr": 814, "hex": "6f6668824e98f06a", "src": 0}
+{"t": 1787143324.9337986, "k": "rx", "addr": 814, "hex": "6f6668824e98f169", "src": 0}
+{"t": 1787143324.9443579, "k": "carState", "vEgo": 6.418, "aEgo": 0.853, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143324.9536483, "k": "rx", "addr": 814, "hex": "6f6668824e98f268", "src": 0}
+{"t": 1787143324.9739316, "k": "rx", "addr": 814, "hex": "6f6668824e98f367", "src": 0}
+{"t": 1787143324.9940333, "k": "rx", "addr": 814, "hex": "6f6668824e98f466", "src": 0}
+{"t": 1787143324.9960918, "k": "carState", "vEgo": 6.446, "aEgo": 0.732, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.0084772, "k": "rx", "addr": 814, "hex": "6c6668824d98f569", "src": 0}
+{"t": 1787143325.0264766, "k": "rx", "addr": 814, "hex": "6c6668824d98f668", "src": 0}
+{"t": 1787143325.0482152, "k": "rx", "addr": 814, "hex": "6c6668824d98f767", "src": 0}
+{"t": 1787143325.0556157, "k": "carState", "vEgo": 6.447, "aEgo": 0.443, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.0668602, "k": "rx", "addr": 814, "hex": "6c6668824d98f866", "src": 0}
+{"t": 1787143325.0863817, "k": "rx", "addr": 814, "hex": "6c6668824d98f965", "src": 0}
+{"t": 1787143325.112406, "k": "rx", "addr": 814, "hex": "6c6668824d98fa64", "src": 0}
+{"t": 1787143325.1127787, "k": "carState", "vEgo": 6.487, "aEgo": 0.608, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.1315424, "k": "rx", "addr": 814, "hex": "6c6668824d98fb63", "src": 0}
+{"t": 1787143325.1494815, "k": "rx", "addr": 814, "hex": "6c6668824e98fc61", "src": 0}
+{"t": 1787143325.1700044, "k": "rx", "addr": 814, "hex": "6c6668824e98fd60", "src": 0}
+{"t": 1787143325.170777, "k": "carState", "vEgo": 6.484, "aEgo": 0.334, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.1905217, "k": "rx", "addr": 814, "hex": "6c6668824e98fe5f", "src": 0}
+{"t": 1787143325.2201612, "k": "rx", "addr": 814, "hex": "6c6668824e98ff5e", "src": 0}
+{"t": 1787143325.2216222, "k": "carState", "vEgo": 6.469, "aEgo": 0.086, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.2289896, "k": "rx", "addr": 814, "hex": "6c6668824e98f06d", "src": 0}
+{"t": 1787143325.2474592, "k": "rx", "addr": 814, "hex": "6c6668824e98f16c", "src": 0}
+{"t": 1787143325.2692988, "k": "rx", "addr": 814, "hex": "6c6668824e98f26b", "src": 0}
+{"t": 1787143325.2765996, "k": "carState", "vEgo": 6.511, "aEgo": 0.355, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.2875092, "k": "rx", "addr": 814, "hex": "696668824d98f36e", "src": 0}
+{"t": 1787143325.3094895, "k": "rx", "addr": 814, "hex": "696668824d98f46d", "src": 0}
+{"t": 1787143325.325689, "k": "rx", "addr": 814, "hex": "696668824d98f56c", "src": 0}
+{"t": 1787143325.3355825, "k": "carState", "vEgo": 6.532, "aEgo": 0.345, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.3537962, "k": "rx", "addr": 814, "hex": "696668824d98f66b", "src": 0}
+{"t": 1787143325.374073, "k": "rx", "addr": 814, "hex": "696668824d98f76a", "src": 0}
+{"t": 1787143325.395019, "k": "rx", "addr": 814, "hex": "696668824d98f869", "src": 0}
+{"t": 1787143325.3965623, "k": "carState", "vEgo": 6.576, "aEgo": 0.522, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.4125457, "k": "rx", "addr": 814, "hex": "696668824d98f968", "src": 0}
+{"t": 1787143325.4333646, "k": "rx", "addr": 814, "hex": "71666e823898fa6e", "src": 0}
+{"t": 1787143325.4474192, "k": "rx", "addr": 814, "hex": "71666e823898fb6d", "src": 0}
+{"t": 1787143325.4482148, "k": "carState", "vEgo": 6.613, "aEgo": 0.604, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.4680352, "k": "rx", "addr": 814, "hex": "71666e823898fc6c", "src": 0}
+{"t": 1787143325.4871004, "k": "rx", "addr": 814, "hex": "6e666b823898fd71", "src": 0}
+{"t": 1787143325.5054982, "k": "rx", "addr": 814, "hex": "6e666b823898fe70", "src": 0}
+{"t": 1787143325.505715, "k": "carState", "vEgo": 6.688, "aEgo": 0.888, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.5310025, "k": "rx", "addr": 814, "hex": "6e666b823898ff6f", "src": 0}
+{"t": 1787143325.548889, "k": "rx", "addr": 814, "hex": "6e666b823898f07e", "src": 0}
+{"t": 1787143325.5588667, "k": "carState", "vEgo": 6.665, "aEgo": 0.403, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.5712404, "k": "rx", "addr": 814, "hex": "6e666b823898f17d", "src": 0}
+{"t": 1787143325.5913136, "k": "rx", "addr": 814, "hex": "6e666b823898f27c", "src": 0}
+{"t": 1787143325.610504, "k": "rx", "addr": 814, "hex": "6e666b823898f37b", "src": 0}
+{"t": 1787143325.61144, "k": "carState", "vEgo": 6.685, "aEgo": 0.404, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.6344366, "k": "rx", "addr": 814, "hex": "6d666a823898f47c", "src": 0}
+{"t": 1787143325.6549504, "k": "rx", "addr": 814, "hex": "6d666a823898f57b", "src": 0}
+{"t": 1787143325.6620858, "k": "carState", "vEgo": 6.711, "aEgo": 0.505, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.6721168, "k": "rx", "addr": 814, "hex": "6d666a823898f67a", "src": 0}
+{"t": 1787143325.6923625, "k": "rx", "addr": 814, "hex": "6d666a823898f779", "src": 0}
+{"t": 1787143325.714889, "k": "rx", "addr": 814, "hex": "6d666a823898f878", "src": 0}
+{"t": 1787143325.7162693, "k": "carState", "vEgo": 6.763, "aEgo": 0.653, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.7414963, "k": "rx", "addr": 814, "hex": "6d666a823898f977", "src": 0}
+{"t": 1787143325.7488353, "k": "rx", "addr": 814, "hex": "6d666a823898fa76", "src": 0}
+{"t": 1787143325.770155, "k": "rx", "addr": 814, "hex": "6d666a823898fb75", "src": 0}
+{"t": 1787143325.7709415, "k": "carState", "vEgo": 6.742, "aEgo": 0.25, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.7885358, "k": "rx", "addr": 814, "hex": "6d666a823898fc74", "src": 0}
+{"t": 1787143325.8113203, "k": "rx", "addr": 814, "hex": "6d666a823898fd73", "src": 0}
+{"t": 1787143325.8294733, "k": "rx", "addr": 814, "hex": "6d666a823898fe72", "src": 0}
+{"t": 1787143325.8297112, "k": "carState", "vEgo": 6.769, "aEgo": 0.331, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.8464756, "k": "rx", "addr": 814, "hex": "6d666a823898ff71", "src": 0}
+{"t": 1787143325.873849, "k": "rx", "addr": 814, "hex": "6d666a823898f080", "src": 0}
+{"t": 1787143325.8815966, "k": "carState", "vEgo": 6.776, "aEgo": 0.269, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.893474, "k": "rx", "addr": 814, "hex": "6d666a823898f17f", "src": 0}
+{"t": 1787143325.9126751, "k": "rx", "addr": 814, "hex": "6a6668824e98f26d", "src": 0}
+{"t": 1787143325.9317849, "k": "rx", "addr": 814, "hex": "6a6668824e98f36c", "src": 0}
+{"t": 1787143325.932845, "k": "carState", "vEgo": 6.797, "aEgo": 0.323, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143325.948391, "k": "rx", "addr": 814, "hex": "6a6668824e98f46b", "src": 0}
+{"t": 1787143325.9742436, "k": "rx", "addr": 814, "hex": "6a6668824e98f56a", "src": 0}
+{"t": 1787143325.985122, "k": "rx", "addr": 814, "hex": "6a6668824e98f669", "src": 0}
+{"t": 1787143325.986014, "k": "carState", "vEgo": 6.792, "aEgo": 0.131, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.004584, "k": "rx", "addr": 814, "hex": "6a6668824e98f768", "src": 0}
+{"t": 1787143326.0244818, "k": "rx", "addr": 814, "hex": "6a6668824e98f867", "src": 0}
+{"t": 1787143326.049448, "k": "rx", "addr": 814, "hex": "6d666a823998f976", "src": 0}
+{"t": 1787143326.0497723, "k": "carState", "vEgo": 6.803, "aEgo": 0.197, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.0673823, "k": "rx", "addr": 814, "hex": "6d666a823998fa75", "src": 0}
+{"t": 1787143326.0911944, "k": "rx", "addr": 814, "hex": "6d666a823998fb74", "src": 0}
+{"t": 1787143326.1091523, "k": "rx", "addr": 814, "hex": "6a6668824e98fc63", "src": 0}
+{"t": 1787143326.1103122, "k": "carState", "vEgo": 6.833, "aEgo": 0.35, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.129926, "k": "rx", "addr": 814, "hex": "6a6668824e98fd62", "src": 0}
+{"t": 1787143326.1524308, "k": "rx", "addr": 814, "hex": "6a6668824e98fe61", "src": 0}
+{"t": 1787143326.1608205, "k": "carState", "vEgo": 6.858, "aEgo": 0.407, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.1726112, "k": "rx", "addr": 814, "hex": "6a6668824e98ff60", "src": 0}
+{"t": 1787143326.1904807, "k": "rx", "addr": 814, "hex": "6a6668824e98f06f", "src": 0}
+{"t": 1787143326.2111063, "k": "rx", "addr": 814, "hex": "6a6668824e98f16e", "src": 0}
+{"t": 1787143326.2121096, "k": "carState", "vEgo": 6.875, "aEgo": 0.376, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.2321615, "k": "rx", "addr": 814, "hex": "6a6668824e98f26d", "src": 0}
+{"t": 1787143326.2615182, "k": "rx", "addr": 814, "hex": "696668824e98f36d", "src": 0}
+{"t": 1787143326.2621493, "k": "carState", "vEgo": 6.912, "aEgo": 0.499, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.269807, "k": "rx", "addr": 814, "hex": "696668824e98f46c", "src": 0}
+{"t": 1787143326.288493, "k": "rx", "addr": 814, "hex": "696668824e98f56b", "src": 0}
+{"t": 1787143326.3085687, "k": "rx", "addr": 814, "hex": "696668824e98f66a", "src": 0}
+{"t": 1787143326.3174758, "k": "carState", "vEgo": 6.937, "aEgo": 0.477, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.3280969, "k": "rx", "addr": 814, "hex": "696668824e98f769", "src": 0}
+{"t": 1787143326.3498921, "k": "rx", "addr": 814, "hex": "696668824e98f868", "src": 0}
+{"t": 1787143326.3667462, "k": "rx", "addr": 814, "hex": "696668824e98f967", "src": 0}
+{"t": 1787143326.372436, "k": "carState", "vEgo": 6.969, "aEgo": 0.521, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.3924499, "k": "rx", "addr": 814, "hex": "696668824e98fa66", "src": 0}
+{"t": 1787143326.4133558, "k": "rx", "addr": 814, "hex": "696668824e98fb65", "src": 0}
+{"t": 1787143326.4334388, "k": "rx", "addr": 814, "hex": "696668824e98fc64", "src": 0}
+{"t": 1787143326.4338338, "k": "carState", "vEgo": 6.986, "aEgo": 0.358, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.454347, "k": "rx", "addr": 814, "hex": "696668824e98fd63", "src": 0}
+{"t": 1787143326.4694667, "k": "rx", "addr": 814, "hex": "676668824e98fe64", "src": 0}
+{"t": 1787143326.4875984, "k": "rx", "addr": 814, "hex": "676668824e98ff63", "src": 0}
+{"t": 1787143326.4879513, "k": "carState", "vEgo": 7.009, "aEgo": 0.386, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.5090656, "k": "rx", "addr": 814, "hex": "676668824e98f072", "src": 0}
+{"t": 1787143326.5274045, "k": "rx", "addr": 814, "hex": "656668824d98f174", "src": 0}
+{"t": 1787143326.5474465, "k": "rx", "addr": 814, "hex": "656668824d98f273", "src": 0}
+{"t": 1787143326.5477657, "k": "carState", "vEgo": 7.048, "aEgo": 0.504, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.5733306, "k": "rx", "addr": 814, "hex": "656668824d98f372", "src": 0}
+{"t": 1787143326.5913758, "k": "rx", "addr": 814, "hex": "656668824d98f471", "src": 0}
+{"t": 1787143326.6017342, "k": "carState", "vEgo": 7.057, "aEgo": 0.394, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.611487, "k": "rx", "addr": 814, "hex": "656668824e98f56f", "src": 0}
+{"t": 1787143326.631188, "k": "rx", "addr": 814, "hex": "656668824e98f66e", "src": 0}
+{"t": 1787143326.6529894, "k": "rx", "addr": 814, "hex": "656668824e98f76d", "src": 0}
+{"t": 1787143326.6545625, "k": "carState", "vEgo": 7.088, "aEgo": 0.419, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.6849852, "k": "rx", "addr": 814, "hex": "646668824e98f86d", "src": 0}
+{"t": 1787143326.695925, "k": "rx", "addr": 814, "hex": "646668824e98f96c", "src": 0}
+{"t": 1787143326.7051253, "k": "rx", "addr": 814, "hex": "646668824e98fa6b", "src": 0}
+{"t": 1787143326.7062724, "k": "carState", "vEgo": 7.057, "aEgo": -0.001, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.726695, "k": "rx", "addr": 814, "hex": "646668824e98fb6a", "src": 0}
+{"t": 1787143326.7533913, "k": "rx", "addr": 814, "hex": "646668824e98fc69", "src": 0}
+{"t": 1787143326.7755034, "k": "carState", "vEgo": 7.037, "aEgo": -0.118, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.785487, "k": "rx", "addr": 814, "hex": "646668824e98fd68", "src": 0}
+{"t": 1787143326.7860239, "k": "rx", "addr": 814, "hex": "646668824e98fe67", "src": 0}
+{"t": 1787143326.8124063, "k": "rx", "addr": 814, "hex": "656668824e98ff65", "src": 0}
+{"t": 1787143326.832767, "k": "carState", "vEgo": 7.055, "aEgo": 0.082, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.833369, "k": "rx", "addr": 814, "hex": "656668824e98f074", "src": 0}
+{"t": 1787143326.8541903, "k": "rx", "addr": 814, "hex": "656668824e98f173", "src": 0}
+{"t": 1787143326.8739042, "k": "rx", "addr": 814, "hex": "656668824e98f272", "src": 0}
+{"t": 1787143326.8889563, "k": "rx", "addr": 814, "hex": "646668824e98f372", "src": 0}
+{"t": 1787143326.8900237, "k": "carState", "vEgo": 7.101, "aEgo": 0.419, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.9080687, "k": "rx", "addr": 814, "hex": "646668824e98f471", "src": 0}
+{"t": 1787143326.9272578, "k": "rx", "addr": 814, "hex": "646668824e98f570", "src": 0}
+{"t": 1787143326.9479158, "k": "rx", "addr": 814, "hex": "646668824e98f66f", "src": 0}
+{"t": 1787143326.9490151, "k": "carState", "vEgo": 7.126, "aEgo": 0.414, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143326.9675367, "k": "rx", "addr": 814, "hex": "646668824e98f76e", "src": 0}
+{"t": 1787143326.9920115, "k": "rx", "addr": 814, "hex": "646668824e98f86d", "src": 0}
+{"t": 1787143327.0003984, "k": "carState", "vEgo": 7.117, "aEgo": 0.181, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.0100358, "k": "rx", "addr": 814, "hex": "646668824e98f96c", "src": 0}
+{"t": 1787143327.0293748, "k": "rx", "addr": 814, "hex": "646668824e98fa6b", "src": 0}
+{"t": 1787143327.051313, "k": "rx", "addr": 814, "hex": "646668824e98fb6a", "src": 0}
+{"t": 1787143327.0526242, "k": "carState", "vEgo": 7.117, "aEgo": 0.118, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.0697773, "k": "rx", "addr": 814, "hex": "646668824e98fc69", "src": 0}
+{"t": 1787143327.096014, "k": "rx", "addr": 814, "hex": "646668824e98fd68", "src": 0}
+{"t": 1787143327.113442, "k": "rx", "addr": 814, "hex": "646668824e98fe67", "src": 0}
+{"t": 1787143327.1138046, "k": "carState", "vEgo": 7.125, "aEgo": 0.103, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.1323612, "k": "rx", "addr": 814, "hex": "646668824e98ff66", "src": 0}
+{"t": 1787143327.1523278, "k": "rx", "addr": 814, "hex": "646668824e98f075", "src": 0}
+{"t": 1787143327.1654131, "k": "carState", "vEgo": 7.134, "aEgo": 0.124, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.1728003, "k": "rx", "addr": 814, "hex": "646668824e98f174", "src": 0}
+{"t": 1787143327.1981084, "k": "rx", "addr": 814, "hex": "636668824e98f274", "src": 0}
+{"t": 1787143327.206619, "k": "rx", "addr": 814, "hex": "636668824e98f373", "src": 0}
+{"t": 1787143327.2183516, "k": "carState", "vEgo": 7.101, "aEgo": -0.2, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.226686, "k": "rx", "addr": 814, "hex": "636668824e98f472", "src": 0}
+{"t": 1787143327.2465253, "k": "rx", "addr": 814, "hex": "646668823998f585", "src": 0}
+{"t": 1787143327.2663994, "k": "rx", "addr": 814, "hex": "646668823998f684", "src": 0}
+{"t": 1787143327.2765188, "k": "carState", "vEgo": 7.082, "aEgo": -0.242, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.2868772, "k": "rx", "addr": 814, "hex": "646668823998f783", "src": 0}
+{"t": 1787143327.3088465, "k": "rx", "addr": 814, "hex": "646668823998f882", "src": 0}
+{"t": 1787143327.3315015, "k": "carState", "vEgo": 7.091, "aEgo": -0.057, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.334671, "k": "rx", "addr": 814, "hex": "646668823998f981", "src": 0}
+{"t": 1787143327.356342, "k": "rx", "addr": 814, "hex": "646668823998fa80", "src": 0}
+{"t": 1787143327.3744805, "k": "rx", "addr": 814, "hex": "646668823998fb7f", "src": 0}
+{"t": 1787143327.3862891, "k": "rx", "addr": 814, "hex": "646668823998fc7e", "src": 0}
+{"t": 1787143327.3869762, "k": "carState", "vEgo": 7.101, "aEgo": 0.022, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.4090898, "k": "rx", "addr": 814, "hex": "646668823998fd7d", "src": 0}
+{"t": 1787143327.4265013, "k": "rx", "addr": 814, "hex": "646668823998fe7c", "src": 0}
+{"t": 1787143327.4475515, "k": "rx", "addr": 814, "hex": "646668823998ff7b", "src": 0}
+{"t": 1787143327.4478548, "k": "carState", "vEgo": 7.095, "aEgo": -0.015, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.479301, "k": "rx", "addr": 814, "hex": "646668823998f08a", "src": 0}
+{"t": 1787143327.4863715, "k": "rx", "addr": 814, "hex": "646668823998f189", "src": 0}
+{"t": 1787143327.5134099, "k": "rx", "addr": 814, "hex": "646668823998f288", "src": 0}
+{"t": 1787143327.5138597, "k": "carState", "vEgo": 7.082, "aEgo": -0.116, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.5311239, "k": "rx", "addr": 814, "hex": "646668823998f387", "src": 0}
+{"t": 1787143327.551047, "k": "rx", "addr": 814, "hex": "646668823998f486", "src": 0}
+{"t": 1787143327.571524, "k": "rx", "addr": 814, "hex": "646668823998f585", "src": 0}
+{"t": 1787143327.5718732, "k": "carState", "vEgo": 7.081, "aEgo": -0.073, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.5914686, "k": "rx", "addr": 814, "hex": "646668823998f684", "src": 0}
+{"t": 1787143327.6159985, "k": "rx", "addr": 814, "hex": "646668823998f783", "src": 0}
+{"t": 1787143327.623406, "k": "carState", "vEgo": 7.082, "aEgo": -0.012, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.6352677, "k": "rx", "addr": 814, "hex": "646668823998f882", "src": 0}
+{"t": 1787143327.6553438, "k": "rx", "addr": 814, "hex": "646668823998f981", "src": 0}
+{"t": 1787143327.6747367, "k": "rx", "addr": 814, "hex": "646668823998fa80", "src": 0}
+{"t": 1787143327.6763568, "k": "carState", "vEgo": 7.061, "aEgo": -0.17, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.6958206, "k": "rx", "addr": 814, "hex": "646668823998fb7f", "src": 0}
+{"t": 1787143327.705304, "k": "rx", "addr": 814, "hex": "646668823998fc7e", "src": 0}
+{"t": 1787143327.729295, "k": "rx", "addr": 814, "hex": "646668823998fd7d", "src": 0}
+{"t": 1787143327.7309878, "k": "carState", "vEgo": 7.059, "aEgo": -0.11, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.747985, "k": "rx", "addr": 814, "hex": "646668823998fe7c", "src": 0}
+{"t": 1787143327.7722301, "k": "rx", "addr": 814, "hex": "646668823998ff7b", "src": 0}
+{"t": 1787143327.7881823, "k": "rx", "addr": 814, "hex": "646668823998f08a", "src": 0}
+{"t": 1787143327.7889946, "k": "carState", "vEgo": 7.058, "aEgo": -0.071, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.8082201, "k": "rx", "addr": 814, "hex": "646668823998f189", "src": 0}
+{"t": 1787143327.8293343, "k": "rx", "addr": 814, "hex": "646668823998f288", "src": 0}
+{"t": 1787143327.839556, "k": "carState", "vEgo": 7.068, "aEgo": 0.049, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.8544402, "k": "rx", "addr": 814, "hex": "646668823998f387", "src": 0}
+{"t": 1787143327.8743937, "k": "rx", "addr": 814, "hex": "646668823998f486", "src": 0}
+{"t": 1787143327.8954418, "k": "rx", "addr": 814, "hex": "646668823998f585", "src": 0}
+{"t": 1787143327.8958724, "k": "carState", "vEgo": 7.084, "aEgo": 0.147, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.9237156, "k": "rx", "addr": 814, "hex": "646668823998f684", "src": 0}
+{"t": 1787143327.9310482, "k": "rx", "addr": 814, "hex": "646668823998f783", "src": 0}
+{"t": 1787143327.9496877, "k": "rx", "addr": 814, "hex": "646668823998f882", "src": 0}
+{"t": 1787143327.9500823, "k": "carState", "vEgo": 7.075, "aEgo": 0.005, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143327.9689796, "k": "rx", "addr": 814, "hex": "646668823998f981", "src": 0}
+{"t": 1787143327.9900053, "k": "rx", "addr": 814, "hex": "646668823998fa80", "src": 0}
+{"t": 1787143328.0001616, "k": "carState", "vEgo": 7.054, "aEgo": -0.147, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.0133991, "k": "rx", "addr": 814, "hex": "646668823998fb7f", "src": 0}
+{"t": 1787143328.0354912, "k": "rx", "addr": 814, "hex": "646668823998fc7e", "src": 0}
+{"t": 1787143328.0546238, "k": "rx", "addr": 814, "hex": "646668823998fd7d", "src": 0}
+{"t": 1787143328.0561912, "k": "carState", "vEgo": 7.03, "aEgo": -0.266, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.0743349, "k": "rx", "addr": 814, "hex": "646668823998fe7c", "src": 0}
+{"t": 1787143328.0923305, "k": "rx", "addr": 814, "hex": "646668823998ff7b", "src": 0}
+{"t": 1787143328.1153781, "k": "rx", "addr": 814, "hex": "656668823998f089", "src": 0}
+{"t": 1787143328.1170719, "k": "carState", "vEgo": 7.01, "aEgo": -0.285, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.1377578, "k": "rx", "addr": 814, "hex": "656668823998f188", "src": 0}
+{"t": 1787143328.1454356, "k": "rx", "addr": 814, "hex": "656668823998f287", "src": 0}
+{"t": 1787143328.1654634, "k": "rx", "addr": 814, "hex": "656668823998f386", "src": 0}
+{"t": 1787143328.1767251, "k": "carState", "vEgo": 7.001, "aEgo": -0.23, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.185571, "k": "rx", "addr": 814, "hex": "656668823998f485", "src": 0}
+{"t": 1787143328.207689, "k": "rx", "addr": 814, "hex": "656668823998f584", "src": 0}
+{"t": 1787143328.2264373, "k": "rx", "addr": 814, "hex": "656668823998f683", "src": 0}
+{"t": 1787143328.2416365, "k": "carState", "vEgo": 7.001, "aEgo": -0.122, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.2527568, "k": "rx", "addr": 814, "hex": "656668823998f782", "src": 0}
+{"t": 1787143328.2710185, "k": "rx", "addr": 814, "hex": "656668823998f881", "src": 0}
+{"t": 1787143328.291046, "k": "rx", "addr": 814, "hex": "656668823998f980", "src": 0}
+{"t": 1787143328.2918017, "k": "carState", "vEgo": 7.001, "aEgo": -0.07, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.310678, "k": "rx", "addr": 814, "hex": "656668823998fa7f", "src": 0}
+{"t": 1787143328.331073, "k": "rx", "addr": 814, "hex": "656668823998fb7e", "src": 0}
+{"t": 1787143328.349516, "k": "rx", "addr": 814, "hex": "656668823998fc7d", "src": 0}
+{"t": 1787143328.349906, "k": "carState", "vEgo": 7.007, "aEgo": 0.033, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.3674724, "k": "rx", "addr": 814, "hex": "656668823998fd7c", "src": 0}
+{"t": 1787143328.388006, "k": "rx", "addr": 814, "hex": "656668823998fe7b", "src": 0}
+{"t": 1787143328.408525, "k": "rx", "addr": 814, "hex": "656668823998ff7a", "src": 0}
+{"t": 1787143328.40878, "k": "carState", "vEgo": 7.033, "aEgo": 0.211, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.4274485, "k": "rx", "addr": 814, "hex": "656668823998f089", "src": 0}
+{"t": 1787143328.4548657, "k": "rx", "addr": 814, "hex": "656668823998f188", "src": 0}
+{"t": 1787143328.4618218, "k": "carState", "vEgo": 7.048, "aEgo": 0.252, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.4807305, "k": "rx", "addr": 814, "hex": "656668823998f287", "src": 0}
+{"t": 1787143328.4930024, "k": "rx", "addr": 814, "hex": "656668823998f386", "src": 0}
+{"t": 1787143328.5138586, "k": "rx", "addr": 814, "hex": "656668823998f485", "src": 0}
+{"t": 1787143328.515173, "k": "carState", "vEgo": 7.058, "aEgo": 0.192, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.533431, "k": "rx", "addr": 814, "hex": "656668823998f584", "src": 0}
+{"t": 1787143328.5576625, "k": "rx", "addr": 814, "hex": "656668823998f683", "src": 0}
+{"t": 1787143328.5655386, "k": "rx", "addr": 814, "hex": "656668823998f782", "src": 0}
+{"t": 1787143328.56581, "k": "carState", "vEgo": 7.041, "aEgo": -0.005, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.5898528, "k": "rx", "addr": 814, "hex": "646668824e98f86d", "src": 0}
+{"t": 1787143328.6058097, "k": "rx", "addr": 814, "hex": "646668824e98f96c", "src": 0}
+{"t": 1787143328.6345441, "k": "rx", "addr": 814, "hex": "646668824e98fa6b", "src": 0}
+{"t": 1787143328.6348102, "k": "carState", "vEgo": 7.035, "aEgo": -0.04, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.6461532, "k": "rx", "addr": 814, "hex": "646668824e98fb6a", "src": 0}
+{"t": 1787143328.6683245, "k": "rx", "addr": 814, "hex": "656668823998fc7d", "src": 0}
+{"t": 1787143328.6931202, "k": "rx", "addr": 814, "hex": "656668823998fd7c", "src": 0}
+{"t": 1787143328.6934028, "k": "carState", "vEgo": 7.025, "aEgo": -0.107, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.7122827, "k": "rx", "addr": 814, "hex": "656668823998fe7b", "src": 0}
+{"t": 1787143328.7293472, "k": "rx", "addr": 814, "hex": "656668823998ff7a", "src": 0}
+{"t": 1787143328.7489357, "k": "rx", "addr": 814, "hex": "656668823998f089", "src": 0}
+{"t": 1787143328.7500527, "k": "carState", "vEgo": 7.014, "aEgo": -0.149, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.7696772, "k": "rx", "addr": 814, "hex": "656668823998f188", "src": 0}
+{"t": 1787143328.785517, "k": "rx", "addr": 814, "hex": "656668823998f287", "src": 0}
+{"t": 1787143328.8036273, "k": "carState", "vEgo": 7.001, "aEgo": -0.168, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.8142545, "k": "rx", "addr": 814, "hex": "656668823998f386", "src": 0}
+{"t": 1787143328.835368, "k": "rx", "addr": 814, "hex": "656668823998f485", "src": 0}
+{"t": 1787143328.8554137, "k": "rx", "addr": 814, "hex": "656668823998f584", "src": 0}
+{"t": 1787143328.8558726, "k": "carState", "vEgo": 7.005, "aEgo": -0.069, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.8752666, "k": "rx", "addr": 814, "hex": "656668823998f683", "src": 0}
+{"t": 1787143328.8943787, "k": "rx", "addr": 814, "hex": "656668823998f782", "src": 0}
+{"t": 1787143328.9154716, "k": "rx", "addr": 814, "hex": "656668823998f881", "src": 0}
+{"t": 1787143328.9159603, "k": "carState", "vEgo": 7.028, "aEgo": 0.147, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.9334688, "k": "rx", "addr": 814, "hex": "656668823998f980", "src": 0}
+{"t": 1787143328.9523, "k": "rx", "addr": 814, "hex": "656668823998fa7f", "src": 0}
+{"t": 1787143328.9691803, "k": "rx", "addr": 814, "hex": "656668823998fb7e", "src": 0}
+{"t": 1787143328.9700444, "k": "carState", "vEgo": 7.036, "aEgo": 0.157, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143328.9893184, "k": "rx", "addr": 814, "hex": "656668823998fc7d", "src": 0}
+{"t": 1787143329.0101912, "k": "rx", "addr": 814, "hex": "656668823998fd7c", "src": 0}
+{"t": 1787143329.0303926, "k": "rx", "addr": 814, "hex": "656668823998fe7b", "src": 0}
+{"t": 1787143329.0306754, "k": "carState", "vEgo": 7.052, "aEgo": 0.193, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.0504532, "k": "rx", "addr": 814, "hex": "656668823998ff7a", "src": 0}
+{"t": 1787143329.0743582, "k": "rx", "addr": 814, "hex": "646668824e98f075", "src": 0}
+{"t": 1787143329.085057, "k": "carState", "vEgo": 7.063, "aEgo": 0.202, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.0917227, "k": "rx", "addr": 814, "hex": "646668824e98f174", "src": 0}
+{"t": 1787143329.1133513, "k": "rx", "addr": 814, "hex": "646668824e98f273", "src": 0}
+{"t": 1787143329.1323411, "k": "rx", "addr": 814, "hex": "646668824e98f372", "src": 0}
+{"t": 1787143329.1421845, "k": "carState", "vEgo": 7.062, "aEgo": 0.12, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.1528254, "k": "rx", "addr": 814, "hex": "646668824e98f471", "src": 0}
+{"t": 1787143329.17165, "k": "rx", "addr": 814, "hex": "646668824e98f570", "src": 0}
+{"t": 1787143329.1885257, "k": "rx", "addr": 814, "hex": "646668824e98f66f", "src": 0}
+{"t": 1787143329.1953242, "k": "carState", "vEgo": 7.064, "aEgo": 0.089, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.2054248, "k": "rx", "addr": 814, "hex": "646668824e98f76e", "src": 0}
+{"t": 1787143329.2282429, "k": "rx", "addr": 814, "hex": "646668824e98f86d", "src": 0}
+{"t": 1787143329.2453952, "k": "rx", "addr": 814, "hex": "646668824e98f96c", "src": 0}
+{"t": 1787143329.2457469, "k": "carState", "vEgo": 7.057, "aEgo": -0.004, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.276483, "k": "rx", "addr": 814, "hex": "646668824e98fa6b", "src": 0}
+{"t": 1787143329.2912054, "k": "rx", "addr": 814, "hex": "656668823998fb7e", "src": 0}
+{"t": 1787143329.3043816, "k": "carState", "vEgo": 7.029, "aEgo": -0.208, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.3131883, "k": "rx", "addr": 814, "hex": "656668823998fc7d", "src": 0}
+{"t": 1787143329.3320692, "k": "rx", "addr": 814, "hex": "656668823998fd7c", "src": 0}
+{"t": 1787143329.3483174, "k": "rx", "addr": 814, "hex": "656668823998fe7b", "src": 0}
+{"t": 1787143329.3620634, "k": "carState", "vEgo": 7.02, "aEgo": -0.184, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.3690069, "k": "rx", "addr": 814, "hex": "656668823998ff7a", "src": 0}
+{"t": 1787143329.3985612, "k": "rx", "addr": 814, "hex": "656668823998f089", "src": 0}
+{"t": 1787143329.406415, "k": "rx", "addr": 814, "hex": "656668823998f188", "src": 0}
+{"t": 1787143329.4254656, "k": "carState", "vEgo": 7.044, "aEgo": 0.09, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.4271421, "k": "rx", "addr": 814, "hex": "656668823998f287", "src": 0}
+{"t": 1787143329.4462414, "k": "rx", "addr": 814, "hex": "656668823998f386", "src": 0}
+{"t": 1787143329.4697382, "k": "rx", "addr": 814, "hex": "656668823998f485", "src": 0}
+{"t": 1787143329.4765677, "k": "carState", "vEgo": 7.024, "aEgo": -0.068, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.485518, "k": "rx", "addr": 814, "hex": "646668824e98f570", "src": 0}
+{"t": 1787143329.5094182, "k": "rx", "addr": 814, "hex": "646668824e98f66f", "src": 0}
+{"t": 1787143329.530928, "k": "rx", "addr": 814, "hex": "646668824e98f76e", "src": 0}
+{"t": 1787143329.5319011, "k": "carState", "vEgo": 7.044, "aEgo": 0.111, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.5502467, "k": "rx", "addr": 814, "hex": "646668824e98f86d", "src": 0}
+{"t": 1787143329.569426, "k": "rx", "addr": 814, "hex": "646668824e98f96c", "src": 0}
+{"t": 1787143329.5913413, "k": "rx", "addr": 814, "hex": "646668824e98fa6b", "src": 0}
+{"t": 1787143329.59175, "k": "carState", "vEgo": 7.05, "aEgo": 0.102, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.6045237, "k": "rx", "addr": 814, "hex": "646668824e98fb6a", "src": 0}
+{"t": 1787143329.6333716, "k": "rx", "addr": 814, "hex": "646668824e98fc69", "src": 0}
+{"t": 1787143329.6542988, "k": "rx", "addr": 814, "hex": "646668824e98fd68", "src": 0}
+{"t": 1787143329.6547878, "k": "carState", "vEgo": 7.055, "aEgo": 0.071, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.6723714, "k": "rx", "addr": 814, "hex": "646668824e98fe67", "src": 0}
+{"t": 1787143329.6925046, "k": "rx", "addr": 814, "hex": "646668824e98ff66", "src": 0}
+{"t": 1787143329.708536, "k": "rx", "addr": 814, "hex": "646668823998f08a", "src": 0}
+{"t": 1787143329.7088304, "k": "carState", "vEgo": 7.062, "aEgo": 0.087, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.7253852, "k": "rx", "addr": 814, "hex": "646668823998f189", "src": 0}
+{"t": 1787143329.7454216, "k": "rx", "addr": 814, "hex": "646668823998f288", "src": 0}
+{"t": 1787143329.7670486, "k": "rx", "addr": 814, "hex": "646668823998f387", "src": 0}
+{"t": 1787143329.767973, "k": "carState", "vEgo": 7.055, "aEgo": 0.009, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.786402, "k": "rx", "addr": 814, "hex": "646668823998f486", "src": 0}
+{"t": 1787143329.8113678, "k": "rx", "addr": 814, "hex": "646668823998f585", "src": 0}
+{"t": 1787143329.8205926, "k": "carState", "vEgo": 7.091, "aEgo": 0.276, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.8308055, "k": "rx", "addr": 814, "hex": "646668823998f684", "src": 0}
+{"t": 1787143329.8504994, "k": "rx", "addr": 814, "hex": "646668823998f783", "src": 0}
+{"t": 1787143329.8693893, "k": "rx", "addr": 814, "hex": "646668823998f882", "src": 0}
+{"t": 1787143329.8796217, "k": "carState", "vEgo": 7.087, "aEgo": 0.121, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.889556, "k": "rx", "addr": 814, "hex": "646668823998f981", "src": 0}
+{"t": 1787143329.9231117, "k": "rx", "addr": 814, "hex": "646668823998fa80", "src": 0}
+{"t": 1787143329.9285748, "k": "rx", "addr": 814, "hex": "646668823998fb7f", "src": 0}
+{"t": 1787143329.9367747, "k": "carState", "vEgo": 7.078, "aEgo": 0.008, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143329.9480362, "k": "rx", "addr": 814, "hex": "646668823998fc7e", "src": 0}
+{"t": 1787143329.9679596, "k": "rx", "addr": 814, "hex": "646668823998fd7d", "src": 0}
+{"t": 1787143329.9885986, "k": "rx", "addr": 814, "hex": "646668823998fe7c", "src": 0}
+{"t": 1787143329.9897985, "k": "carState", "vEgo": 7.065, "aEgo": -0.09, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.0074108, "k": "rx", "addr": 814, "hex": "646668823998ff7b", "src": 0}
+{"t": 1787143330.034379, "k": "rx", "addr": 814, "hex": "646668823998f08a", "src": 0}
+{"t": 1787143330.041309, "k": "carState", "vEgo": 7.057, "aEgo": -0.141, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.0521955, "k": "rx", "addr": 814, "hex": "656668823998f188", "src": 0}
+{"t": 1787143330.07155, "k": "rx", "addr": 814, "hex": "656668823998f287", "src": 0}
+{"t": 1787143330.0914178, "k": "rx", "addr": 814, "hex": "656668823998f386", "src": 0}
+{"t": 1787143330.0918438, "k": "carState", "vEgo": 7.034, "aEgo": -0.265, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.1124017, "k": "rx", "addr": 814, "hex": "656668823998f485", "src": 0}
+{"t": 1787143330.128466, "k": "rx", "addr": 814, "hex": "656668823998f584", "src": 0}
+{"t": 1787143330.1461656, "k": "rx", "addr": 814, "hex": "656668823998f683", "src": 0}
+{"t": 1787143330.1471725, "k": "carState", "vEgo": 7.043, "aEgo": -0.088, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.176371, "k": "rx", "addr": 814, "hex": "656668823998f782", "src": 0}
+{"t": 1787143330.1863818, "k": "rx", "addr": 814, "hex": "656668823998f881", "src": 0}
+{"t": 1787143330.207361, "k": "rx", "addr": 814, "hex": "656668823998f980", "src": 0}
+{"t": 1787143330.2083685, "k": "carState", "vEgo": 7.037, "aEgo": -0.101, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.2321153, "k": "rx", "addr": 814, "hex": "656668823998fa7f", "src": 0}
+{"t": 1787143330.2518752, "k": "rx", "addr": 814, "hex": "656668823998fb7e", "src": 0}
+{"t": 1787143330.2656775, "k": "carState", "vEgo": 7.023, "aEgo": -0.16, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.2697387, "k": "rx", "addr": 814, "hex": "656668823998fc7d", "src": 0}
+{"t": 1787143330.290581, "k": "rx", "addr": 814, "hex": "656668823998fd7c", "src": 0}
+{"t": 1787143330.3101459, "k": "rx", "addr": 814, "hex": "656668823998fe7b", "src": 0}
+{"t": 1787143330.319445, "k": "carState", "vEgo": 7.026, "aEgo": -0.062, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.3353145, "k": "rx", "addr": 814, "hex": "656668823998ff7a", "src": 0}
+{"t": 1787143330.3543053, "k": "rx", "addr": 814, "hex": "656668823998f089", "src": 0}
+{"t": 1787143330.375, "k": "rx", "addr": 814, "hex": "656668823998f188", "src": 0}
+{"t": 1787143330.3768382, "k": "carState", "vEgo": 7.015, "aEgo": -0.122, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.3936472, "k": "rx", "addr": 814, "hex": "656668823998f287", "src": 0}
+{"t": 1787143330.4138446, "k": "rx", "addr": 814, "hex": "656668823998f386", "src": 0}
+{"t": 1787143330.4446363, "k": "carState", "vEgo": 7.041, "aEgo": 0.151, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.445864, "k": "rx", "addr": 814, "hex": "656668823998f485", "src": 0}
+{"t": 1787143330.4475396, "k": "rx", "addr": 814, "hex": "656668823998f584", "src": 0}
+{"t": 1787143330.4704664, "k": "rx", "addr": 814, "hex": "656668823998f683", "src": 0}
+{"t": 1787143330.4898467, "k": "rx", "addr": 814, "hex": "656668823998f782", "src": 0}
+{"t": 1787143330.5005276, "k": "carState", "vEgo": 7.035, "aEgo": 0.04, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.5213025, "k": "rx", "addr": 814, "hex": "656668823998f881", "src": 0}
+{"t": 1787143330.5308824, "k": "rx", "addr": 814, "hex": "656668823998f980", "src": 0}
+{"t": 1787143330.5454018, "k": "rx", "addr": 814, "hex": "656668823998fa7f", "src": 0}
+{"t": 1787143330.5533965, "k": "carState", "vEgo": 7.056, "aEgo": 0.178, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.567659, "k": "rx", "addr": 814, "hex": "656668823998fb7e", "src": 0}
+{"t": 1787143330.5851452, "k": "rx", "addr": 814, "hex": "656668823998fc7d", "src": 0}
+{"t": 1787143330.6192925, "k": "rx", "addr": 814, "hex": "646668824e98fd68", "src": 0}
+{"t": 1787143330.6208556, "k": "carState", "vEgo": 7.059, "aEgo": 0.102, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.6347978, "k": "rx", "addr": 814, "hex": "646668824e98fe67", "src": 0}
+{"t": 1787143330.6509588, "k": "rx", "addr": 814, "hex": "646668824e98ff66", "src": 0}
+{"t": 1787143330.6681273, "k": "rx", "addr": 814, "hex": "646668824e98f075", "src": 0}
+{"t": 1787143330.677153, "k": "carState", "vEgo": 7.068, "aEgo": 0.132, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.6880267, "k": "rx", "addr": 814, "hex": "646668824e98f174", "src": 0}
+{"t": 1787143330.707561, "k": "rx", "addr": 814, "hex": "646668824e98f273", "src": 0}
+{"t": 1787143330.7274606, "k": "rx", "addr": 814, "hex": "646668824e98f372", "src": 0}
+{"t": 1787143330.7278268, "k": "carState", "vEgo": 7.09, "aEgo": 0.26, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.753583, "k": "rx", "addr": 814, "hex": "646668824e98f471", "src": 0}
+{"t": 1787143330.7704716, "k": "rx", "addr": 814, "hex": "646668823998f585", "src": 0}
+{"t": 1787143330.7822125, "k": "carState", "vEgo": 7.089, "aEgo": 0.139, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.7908978, "k": "rx", "addr": 814, "hex": "646668823998f684", "src": 0}
+{"t": 1787143330.8159456, "k": "rx", "addr": 814, "hex": "646668823998f783", "src": 0}
+{"t": 1787143330.8305013, "k": "rx", "addr": 814, "hex": "646668823998f882", "src": 0}
+{"t": 1787143330.8434877, "k": "carState", "vEgo": 7.078, "aEgo": -0.012, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.8574796, "k": "rx", "addr": 814, "hex": "646668823998f981", "src": 0}
+{"t": 1787143330.8653936, "k": "rx", "addr": 814, "hex": "646668823998fa80", "src": 0}
+{"t": 1787143330.8853698, "k": "rx", "addr": 814, "hex": "646668823998fb7f", "src": 0}
+{"t": 1787143330.895613, "k": "carState", "vEgo": 7.057, "aEgo": -0.171, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.905454, "k": "rx", "addr": 814, "hex": "646668823998fc7e", "src": 0}
+{"t": 1787143330.9261057, "k": "rx", "addr": 814, "hex": "646668823998fd7d", "src": 0}
+{"t": 1787143330.945355, "k": "rx", "addr": 814, "hex": "646668823998fe7c", "src": 0}
+{"t": 1787143330.945635, "k": "carState", "vEgo": 7.042, "aEgo": -0.218, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143330.9677322, "k": "rx", "addr": 814, "hex": "646668823998ff7b", "src": 0}
+{"t": 1787143330.9933798, "k": "rx", "addr": 814, "hex": "646668823998f08a", "src": 0}
+{"t": 1787143331.0041673, "k": "carState", "vEgo": 7.041, "aEgo": -0.158, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.0132968, "k": "rx", "addr": 814, "hex": "646668823998f189", "src": 0}
+{"t": 1787143331.0333586, "k": "rx", "addr": 814, "hex": "646668823998f288", "src": 0}
+{"t": 1787143331.0524037, "k": "rx", "addr": 814, "hex": "646668823998f387", "src": 0}
+{"t": 1787143331.068543, "k": "rx", "addr": 814, "hex": "646668823998f486", "src": 0}
+{"t": 1787143331.0688643, "k": "carState", "vEgo": 7.05, "aEgo": -0.027, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.0853236, "k": "rx", "addr": 814, "hex": "646668823998f585", "src": 0}
+{"t": 1787143331.1056175, "k": "rx", "addr": 814, "hex": "646668823998f684", "src": 0}
+{"t": 1787143331.1200206, "k": "carState", "vEgo": 7.046, "aEgo": -0.051, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.1266692, "k": "rx", "addr": 814, "hex": "656668823998f782", "src": 0}
+{"t": 1787143331.1454856, "k": "rx", "addr": 814, "hex": "656668823998f881", "src": 0}
+{"t": 1787143331.1716032, "k": "rx", "addr": 814, "hex": "656668823998f980", "src": 0}
+{"t": 1787143331.1721036, "k": "carState", "vEgo": 7.043, "aEgo": -0.045, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.1905115, "k": "rx", "addr": 814, "hex": "656668823998fa7f", "src": 0}
+{"t": 1787143331.2169278, "k": "rx", "addr": 814, "hex": "656668823998fb7e", "src": 0}
+{"t": 1787143331.2309384, "k": "rx", "addr": 814, "hex": "656668823998fc7d", "src": 0}
+{"t": 1787143331.2318363, "k": "carState", "vEgo": 7.052, "aEgo": 0.02, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.2512522, "k": "rx", "addr": 814, "hex": "656668823998fd7c", "src": 0}
+{"t": 1787143331.2763972, "k": "rx", "addr": 814, "hex": "656668823998fe7b", "src": 0}
+{"t": 1787143331.283648, "k": "carState", "vEgo": 7.016, "aEgo": -0.258, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.296266, "k": "rx", "addr": 814, "hex": "656668823998ff7a", "src": 0}
+{"t": 1787143331.3069787, "k": "rx", "addr": 814, "hex": "656668823998f089", "src": 0}
+{"t": 1787143331.325569, "k": "rx", "addr": 814, "hex": "656668823998f188", "src": 0}
+{"t": 1787143331.3378613, "k": "carState", "vEgo": 6.986, "aEgo": -0.389, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.346026, "k": "rx", "addr": 814, "hex": "656668823998f287", "src": 0}
+{"t": 1787143331.3793502, "k": "rx", "addr": 814, "hex": "656668823998f386", "src": 0}
+{"t": 1787143331.3881629, "k": "rx", "addr": 814, "hex": "656668823998f485", "src": 0}
+{"t": 1787143331.3891466, "k": "carState", "vEgo": 6.983, "aEgo": -0.251, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.4076514, "k": "rx", "addr": 814, "hex": "656668823998f584", "src": 0}
+{"t": 1787143331.4281898, "k": "rx", "addr": 814, "hex": "656668823998f683", "src": 0}
+{"t": 1787143331.449403, "k": "rx", "addr": 814, "hex": "656668823998f782", "src": 0}
+{"t": 1787143331.4496658, "k": "carState", "vEgo": 7.006, "aEgo": 0.033, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.4674666, "k": "rx", "addr": 814, "hex": "656668823998f881", "src": 0}
+{"t": 1787143331.4864652, "k": "rx", "addr": 814, "hex": "656668823998f980", "src": 0}
+{"t": 1787143331.5061514, "k": "rx", "addr": 814, "hex": "656668823998fa7f", "src": 0}
+{"t": 1787143331.5068724, "k": "carState", "vEgo": 7.029, "aEgo": 0.189, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.5353267, "k": "rx", "addr": 814, "hex": "656668823998fb7e", "src": 0}
+{"t": 1787143331.5556493, "k": "rx", "addr": 814, "hex": "656668823998fc7d", "src": 0}
+{"t": 1787143331.5577416, "k": "carState", "vEgo": 7.03, "aEgo": 0.133, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.5659745, "k": "rx", "addr": 814, "hex": "656668823998fd7c", "src": 0}
+{"t": 1787143331.590466, "k": "rx", "addr": 814, "hex": "656668823998fe7b", "src": 0}
+{"t": 1787143331.6093547, "k": "rx", "addr": 814, "hex": "656668823998ff7a", "src": 0}
+{"t": 1787143331.6095924, "k": "carState", "vEgo": 7.04, "aEgo": 0.159, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.630355, "k": "rx", "addr": 814, "hex": "656668823998f089", "src": 0}
+{"t": 1787143331.6511877, "k": "rx", "addr": 814, "hex": "656668823998f188", "src": 0}
+{"t": 1787143331.6613617, "k": "carState", "vEgo": 7.064, "aEgo": 0.276, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.6694171, "k": "rx", "addr": 814, "hex": "656668823998f287", "src": 0}
+{"t": 1787143331.6964493, "k": "rx", "addr": 814, "hex": "646668824e98f372", "src": 0}
+{"t": 1787143331.7199857, "k": "rx", "addr": 814, "hex": "646668824e98f471", "src": 0}
+{"t": 1787143331.721469, "k": "carState", "vEgo": 7.083, "aEgo": 0.309, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.7343104, "k": "rx", "addr": 814, "hex": "646668824e98f570", "src": 0}
+{"t": 1787143331.7542942, "k": "rx", "addr": 814, "hex": "646668824e98f66f", "src": 0}
+{"t": 1787143331.7737744, "k": "rx", "addr": 814, "hex": "646668824e98f76e", "src": 0}
+{"t": 1787143331.7751436, "k": "carState", "vEgo": 7.084, "aEgo": 0.183, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.798711, "k": "rx", "addr": 814, "hex": "646668824e98f86d", "src": 0}
+{"t": 1787143331.8070784, "k": "rx", "addr": 814, "hex": "646668824e98f96c", "src": 0}
+{"t": 1787143331.82637, "k": "rx", "addr": 814, "hex": "646668824e98fa6b", "src": 0}
+{"t": 1787143331.826614, "k": "carState", "vEgo": 7.081, "aEgo": 0.083, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.848338, "k": "rx", "addr": 814, "hex": "646668824e98fb6a", "src": 0}
+{"t": 1787143331.8670092, "k": "rx", "addr": 814, "hex": "646668824e98fc69", "src": 0}
+{"t": 1787143331.8875484, "k": "rx", "addr": 814, "hex": "646668823998fd7d", "src": 0}
+{"t": 1787143331.8878238, "k": "carState", "vEgo": 7.068, "aEgo": -0.03, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.913028, "k": "rx", "addr": 814, "hex": "646668823998fe7c", "src": 0}
+{"t": 1787143331.9311316, "k": "rx", "addr": 814, "hex": "646668823998ff7b", "src": 0}
+{"t": 1787143331.9417093, "k": "carState", "vEgo": 7.08, "aEgo": 0.068, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143331.95206, "k": "rx", "addr": 814, "hex": "646668823998f08a", "src": 0}
+{"t": 1787143331.9704125, "k": "rx", "addr": 814, "hex": "646668823998f189", "src": 0}
+{"t": 1787143331.9915907, "k": "rx", "addr": 814, "hex": "646668823998f288", "src": 0}
+{"t": 1787143331.992613, "k": "carState", "vEgo": 7.086, "aEgo": 0.085, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143332.010436, "k": "rx", "addr": 814, "hex": "646668823998f387", "src": 0}
+{"t": 1787143332.0274906, "k": "rx", "addr": 814, "hex": "646668823998f486", "src": 0}
+{"t": 1787143332.0474968, "k": "rx", "addr": 814, "hex": "646668823998f585", "src": 0}
+{"t": 1787143332.0477571, "k": "carState", "vEgo": 7.088, "aEgo": 0.076, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143332.0679998, "k": "rx", "addr": 814, "hex": "646668823998f684", "src": 0}
+{"t": 1787143332.0881515, "k": "rx", "addr": 814, "hex": "646668823998f783", "src": 0}
+{"t": 1787143332.0983984, "k": "carState", "vEgo": 7.072, "aEgo": -0.087, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143332.1134276, "k": "rx", "addr": 814, "hex": "646668823998f882", "src": 0}
+{"t": 1787143332.1323903, "k": "rx", "addr": 814, "hex": "646668823998f981", "src": 0}
+{"t": 1787143332.1514866, "k": "rx", "addr": 814, "hex": "646668823998fa80", "src": 0}
+{"t": 1787143332.1518111, "k": "carState", "vEgo": 7.051, "aEgo": -0.204, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143332.1708555, "k": "rx", "addr": 814, "hex": "646668823998fb7f", "src": 0}
+{"t": 1787143332.1914005, "k": "rx", "addr": 814, "hex": "646668823998fc7e", "src": 0}
+{"t": 1787143332.2143826, "k": "rx", "addr": 814, "hex": "646668823998fd7d", "src": 0}
+{"t": 1787143332.2147584, "k": "carState", "vEgo": 7.022, "aEgo": -0.33, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143332.2329602, "k": "rx", "addr": 814, "hex": "646668823998fe7c", "src": 0}
+{"t": 1787143332.2559545, "k": "rx", "addr": 814, "hex": "656668823998ff7a", "src": 0}
+{"t": 1787143332.279452, "k": "rx", "addr": 814, "hex": "656668823998f089", "src": 0}
+{"t": 1787143332.281473, "k": "carState", "vEgo": 7.018, "aEgo": -0.222, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143332.292671, "k": "rx", "addr": 814, "hex": "656668823998f188", "src": 0}
+{"t": 1787143332.3066814, "k": "rx", "addr": 814, "hex": "656668823998f287", "src": 0}
+{"t": 1787143332.3301067, "k": "rx", "addr": 814, "hex": "656668823998f386", "src": 0}
+{"t": 1787143332.3410943, "k": "carState", "vEgo": 7.028, "aEgo": -0.062, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143332.3492682, "k": "rx", "addr": 814, "hex": "656668823998f485", "src": 0}
+{"t": 1787143332.3708515, "k": "rx", "addr": 814, "hex": "656668823998f584", "src": 0}
+{"t": 1787143332.3921163, "k": "rx", "addr": 814, "hex": "656668823998f683", "src": 0}
+{"t": 1787143332.3932056, "k": "carState", "vEgo": 7.032, "aEgo": 0.009, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143332.411093, "k": "rx", "addr": 814, "hex": "656668823998f782", "src": 0}
+{"t": 1787143332.4253998, "k": "rx", "addr": 814, "hex": "656668823998f881", "src": 0}
+{"t": 1787143332.443748, "k": "carState", "vEgo": 7.053, "aEgo": 0.179, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143332.4557967, "k": "rx", "addr": 814, "hex": "656668823998f980", "src": 0}
+{"t": 1787143332.4742606, "k": "rx", "addr": 814, "hex": "646668824e98fa6b", "src": 0}
+{"t": 1787143332.4935367, "k": "rx", "addr": 814, "hex": "646668824e98fb6a", "src": 0}
+{"t": 1787143332.494784, "k": "carState", "vEgo": 7.063, "aEgo": 0.176, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143332.519303, "k": "rx", "addr": 814, "hex": "646668824e98fc69", "src": 0}
+{"t": 1787143332.5333931, "k": "rx", "addr": 814, "hex": "656668823998fd7c", "src": 0}
+{"t": 1787143332.5518675, "k": "rx", "addr": 814, "hex": "656668823998fe7b", "src": 0}
+{"t": 1787143332.553029, "k": "carState", "vEgo": 7.068, "aEgo": 0.148, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143332.5708413, "k": "rx", "addr": 814, "hex": "656668823998ff7a", "src": 0}
+{"t": 1787143332.5917122, "k": "rx", "addr": 814, "hex": "646668824e98f075", "src": 0}
+{"t": 1787143332.6119583, "k": "rx", "addr": 814, "hex": "646668824e98f174", "src": 0}
+{"t": 1787143332.6132007, "k": "carState", "vEgo": 7.049, "aEgo": -0.048, "cruiseEnabled": true, "cruiseSpeed": 7.44, "gasPressed": false, "brakePressed": false, "standstill": false}
+{"t": 1787143332.6357806, "k": "rx", "addr": 814, "hex": "646668824e98f273", "src": 0}

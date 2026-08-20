@@ -1,0 +1,65 @@
+--- a/opendbc_repo/opendbc/car/byd/cam_lka/carcontroller.py	(stock, md5 5f21205730283edaf4fbc05c44a67807)
++++ b/opendbc_repo/opendbc/car/byd/cam_lka/carcontroller.py	(patched, md5 13a240fd35a549f3250573ff60d47ba2)
+@@ -15,6 +15,28 @@
+ from opendbc.car.interfaces import CarControllerBase
+ from opendbc.car.lateral import apply_std_steer_angle_limits
+ 
++# --- Longitudinal ACC_CMD (0x32E) TX gate, for the lift-only capture harness.
++# Re-asked every frame; nothing arms persistently. Reads /tmp gate files, all of
++# which vanish on reboot. See byd_longitudinal_kill_gate.py and CONTEXT.md's
++# SAFETY carve-out. NOTE the fallback below is CLOSED, not stock: unlike the
++# steering hook (where stock lateral is the safe state), the safe state here is
++# "do not transmit 0x32E at all", so an import failure must suppress TX. ---
++try:
++  from opendbc.car.byd.byd_longitudinal_kill_gate import (
++    longitudinal_tx_allowed,
++    longitudinal_shadow_enabled,
++    shadow_log,
++  )
++except Exception:
++  def longitudinal_tx_allowed(engaged=None):
++    return False
++
++  def longitudinal_shadow_enabled():
++    return False
++
++  def shadow_log(*args, **kwargs):
++    pass
++
+ STEER_LOWPASS_HZ = 2
+ STEER_DT = 0.02
+ MAX_STEER_ANGLE_OFFSET_DEG = 10
+@@ -219,10 +241,31 @@
+           )
+         )
+ 
+-        if self.CP.carFingerprint in BYD_OP_LONG_PLATFORMS and self.CP.openpilotLongitudinalControl:
++        # BYD_SEAL is deliberately NOT added to BYD_OP_LONG_PLATFORMS: that tuple
++        # is shared with carstate.py, where it makes the CAMERA-bus parser require
++        # ACC_CMD(814) + ACC_HUD_ADAS(813) at 50Hz. Behind the KommuRelay those do
++        # not arrive at that rate, which produced canError ("Unknown Vehicle
++        # Variant") + IMMEDIATE_DISABLE on 2026-08-19. Recognising SEAL only here
++        # keeps the TX capability without touching carstate's parser set.
++        if (self.CP.carFingerprint in BYD_OP_LONG_PLATFORMS or
++            self.CP.carFingerprint == CAR.BYD_SEAL) and self.CP.openpilotLongitudinalControl:
+           long_active = CC.enabled and not CS.out.gasPressed
+           brake_hold = CS.out.standstill and actuators.accel < 0
+-          can_sends.append(create_accel_command(self.packer, actuators.accel, long_active, self.accel_mult, brake_hold))
++          # Branch selection stays purely on config; ONLY the append is gated.
++          # Folding the gate into the `if` above would fall through to the else
++          # and start emitting resume-buttons every time the gate closed --
++          # a new TX path created by the safety mechanism itself.
++          acc_msg = create_accel_command(self.packer, actuators.accel, long_active, self.accel_mult, brake_hold)
++          # Shadow: capture the engaged payload without transmitting anything.
++          # create_accel_command packs identical bytes either way, so the whole
++          # capture goal is reachable with the gate hard-closed. 2Hz on 100Hz loop.
++          if (self.frame % 50) == 0 and longitudinal_shadow_enabled():
++            shadow_log(acc_msg, actuators.accel, long_active, brake_hold, CC.enabled, CS.out.vEgo)
++          # CC.enabled is the engagement state. It only matters when
++          # /tmp/LONGITUDINAL_ENGAGED_ONLY exists, which confines injection to
++          # the engaged window instead of transmitting from process start.
++          if longitudinal_tx_allowed(engaged=CC.enabled):
++            can_sends.append(acc_msg)
+         else:
+           if CS.out.standstill and CC.enabled and (self.frame % BUTTON_KEEPALIVE_FRAMES == 0):
+             can_sends.append(send_buttons(self.packer, 1, 0, self.button_send_bus))
