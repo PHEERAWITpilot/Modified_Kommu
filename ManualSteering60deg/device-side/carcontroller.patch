@@ -1,0 +1,72 @@
+--- a/opendbc_repo/opendbc/car/byd/cam_lka/carcontroller.py	(stock, md5 5f21205730283edaf4fbc05c44a67807)
++++ b/opendbc_repo/opendbc/car/byd/cam_lka/carcontroller.py	(patched, md5 8b109067cd27fbcd92917a28e2d1706c)
+@@ -15,6 +15,20 @@
+ from opendbc.car.interfaces import CarControllerBase
+ from opendbc.car.lateral import apply_std_steer_angle_limits
+ 
++# --- Manual-steer hook (Stage 0/1 validated; ManualSteering60deg tier).
++# Reads /tmp/manual_steer.json, gated by /tmp/MANUAL_STEER_ENABLE. Returns
++# (desired_angle, use_manual). It NEVER encodes CAN and only substitutes the
++# DESIRED angle INPUT; the frame is still built by create_can_steer_command
++# below, and the manual angle still passes the full _compute_apply_angle
++# limiter (lowpass + rate limit + +/-10deg-of-measured clamp) and then the
++# Panda's own max_angle ceiling. If unavailable for any reason, fall back to
++# a no-op so stock behaviour is byte-for-byte unchanged. ---
++try:
++  from opendbc.car.byd.manual_steer_hook import manual_desired_angle
++except Exception:
++  def manual_desired_angle(planner_angle, lat_active, v_ego, **kw):
++    return planner_angle, False
++
+ STEER_LOWPASS_HZ = 2
+ STEER_DT = 0.02
+ MAX_STEER_ANGLE_OFFSET_DEG = 10
+@@ -104,13 +118,17 @@
+         self.lka_active = False
+         self.lka_cooldown = 0
+ 
+-  def _compute_apply_angle(self, CS, actuators, lat_active):
++  def _compute_apply_angle(self, CS, actuators, lat_active, desired_override=None):
+     meas_deg = CS.out.steeringAngleDeg
+     if not lat_active:
+       return meas_deg, False
+ 
+     limits = CarControllerParams.ANGLE_LIMITS
+-    after_lowpass = lowpass_1pole(actuators.steeringAngleDeg, self.last_apply_angle)
++    # desired_override, when supplied by the manual-steer hook, replaces the
++    # planner's desired angle as the INPUT to the identical limiter chain.
++    # desired_override=None => byte-for-byte identical to stock behaviour.
++    desired_in = actuators.steeringAngleDeg if desired_override is None else desired_override
++    after_lowpass = lowpass_1pole(desired_in, self.last_apply_angle)
+     after_std = apply_std_steer_angle_limits(
+       after_lowpass,
+       self.last_apply_angle,
+@@ -182,9 +200,27 @@
+     )
+     if send_steer:
+       if (self.frame % 2) == 0:
+-        apply_angle, steer_angle_limited = self._compute_apply_angle(CS, actuators, lat_active)
++        # Manual-steer substitution: only ever acts when the car is ALREADY
++        # legitimately lat_active (the hook itself also requires the enable
++        # file + a fresh target + the driver's explicit M toggle + a speed
++        # floor). Never manufactures engagement. When it does not act,
++        # use_manual is False and desired_override stays None => stock path.
++        desired_override = None
++        manual_ang, use_manual = manual_desired_angle(actuators.steeringAngleDeg, lat_active, CS.out.vEgo)
++        if use_manual:
++          desired_override = manual_ang
++        apply_angle, steer_angle_limited = self._compute_apply_angle(CS, actuators, lat_active, desired_override)
+       else:
+         steer_angle_limited = False
++      # ⚠️ LATENT HAZARD (documented 2026-08-26, Phase 0 finding) — this block
++      # runs AFTER _compute_apply_angle and DISCARDS its result, forcing
++      # apply_angle back to the measured angle. On BYD_SEAL (the Dolphin)
++      # steer_req == lat_active, so it only fires when already inactive and the
++      # manual override is unaffected. But on BYD_SEAL6 steer_req is additionally
++      # cleared by the driver-torque override detector, which WOULD silently
++      # defeat the manual-steer substitution. If this tool is ever run on a
++      # Seal 6, revisit this interaction FIRST — the override would appear to
++      # do nothing, with no error anywhere.
+       if not steer_req:
+         apply_angle = CS.out.steeringAngleDeg
+         self.last_apply_angle = apply_angle
