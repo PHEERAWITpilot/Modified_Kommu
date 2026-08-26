@@ -1,0 +1,9 @@
+BYD Panda firmware-source backup — known-good 45deg limit
+date: 20260801
+source: /data/openpilot/opendbc_repo/opendbc/safety/modes/byd.h (device, branch staging_v2)
+openpilot commit: ab87942e5b751f23c4c5edfedfe9e3bb21a9ed7d  (staging_v2)
+byd.h md5: 370ff551f86195d0b8cefa38f051ca2b   (working tree CLEAN = matches commit)
+flashed panda signature: 29e77e028d507e86 == tree-built expected (MATCH)
+panda app fw: panda_h7.bin.signed (kedua / H7)
+byd.h key: .max_angle=450 (=45deg via angle_deg_to_can=10); rate lookups {28,26,22}
+rebuild-original: restore this byd.h -> scons panda -> reboot -> pandad auto-flashes original
