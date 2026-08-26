@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>byd_odom_ros</name>
+  <version>0.1.0</version>
+  <description>
+    Live bicycle-model odometry for the BYD Dolphin, bridged from the Kommu
+    device's cereal TCP stream to ROS2 Path + TF for RViz visualisation.
+    Laptop-side only; the device runs no ROS.
+  </description>
+  <maintainer email="dev@example.com">Kommu.AI</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
