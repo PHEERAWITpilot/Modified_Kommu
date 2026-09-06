@@ -1,2 +1,9 @@
 __pycache__/
 *.pyc
+venv/
+
+# RTK/ is a separate git repository with its own history, published at
+# github.com/PHEERAWITpilot/RTK. Ignored here so git cannot record it as a
+# gitlink -- that would point at a commit this repo does not contain and would
+# clone as an empty directory. See README.md.
+RTK/
