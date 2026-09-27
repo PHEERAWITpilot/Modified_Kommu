@@ -5,7 +5,7 @@ Modifications and instrumentation for the Kommu / bukapilot BYD Dolphin port.
 | Folder | What it holds |
 |---|---|
 | `Odom_ROS/` | Laptop-side dead-reckoning odometry in RViz2, as dated snapshots (`29_08/`, `06_09/`). Start with the newest snapshot's README. |
-| `RecorderN-N/` | On-device end-to-end dataset recorder (road camera + CAN steering, wheel speed and yaw, one rosbag2 per session, never subscribes to `carState`), its laptop wrapper, and `track_a_core.py`, the shared Track A math that `odom_node.py` now imports. Snapshot of 2026-09-24; see its README. |
+| `RecorderN-N/` | On-device end-to-end dataset recorder (road camera + CAN steering, wheel speed and yaw, one rosbag2 per session, never subscribes to `carState`), its laptop wrapper (`byd_record_session.sh`, or `byd_drive.sh --with-recorder` to run it together with the odom node), and `track_a_core.py`, the shared Track A math that `odom_node.py` now imports. Snapshot of 2026-09-24, `--with-recorder` added 2026-09-27; see its README. |
 | `ManualSteering60deg/` | Manual desired-angle substitution at the ±45°/±60° tier, on 70° Panda firmware. |
 | `LongitudinalCapture_20260819/` | ACC_CMD (0x32E) injection harness and the evidence that injection alongside the live factory ACC ECU is non-viable. |
 

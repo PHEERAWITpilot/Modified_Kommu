@@ -11,6 +11,32 @@
 #   ./byd_drive.sh 172.20.10.2 --reverse-only   # gear sign ONLY for R, else +1
 #   ./byd_drive.sh 172.20.10.2 --no-gear-sign   # A/B: ignore gear entirely
 #   ./byd_drive.sh 172.20.10.2 gear_mode:=reverse-only   # launch-arg form
+#   ./byd_drive.sh 192.168.1.50 --with-recorder  # also record an e2e dataset session
+#
+# --with-recorder (opt-in; without it nothing below applies and no extra SSH
+# call is made): after byd_yawcheck.sh and byd_ensure_cereal_server.sh have
+# finished, start the device-side e2e recorder (byd_recorder_lib.sh, the same
+# code byd_record_session.sh uses), THEN launch the node. If the recorder cannot
+# start -- disk low, CAN reader slots exhausted, device copy out of date, or a
+# recorder already running -- the node is NOT launched. On Ctrl-C the node shuts
+# down, then the recorder is stopped, its session pulled to
+# ~/Desktop/ROSbag/end-end/<id>/ and md5-verified (this can take minutes on
+# slow WiFi). If the launch ends WITHOUT Ctrl-C (the node was replaced from
+# another terminal, or crashed) the recorder is left running and the command
+# to stop it is printed. Refused when a node is already running, because that
+# path only attaches RViz and has nowhere to stop a recorder.
+#
+# ACCEPTED RISK, NOT A BUG: a node restart runs byd_yawcheck.sh again, and if
+# that finds carstate.py reverted it REBOOTS THE DEVICE, which kills a running
+# recorder mid-bag with no clean stop and no pull. Two paths restart the node:
+#   1. an explicit --kill-existing, and
+#   2. the AUTOMATIC restart this script does when the running node is older
+#      than the installed build (i.e. you rebuilt since launching it).
+# Neither protects an in-progress --with-recorder recording from that reboot.
+# If you need that protection, stop the whole session (Ctrl-C) and start a new
+# one instead of restarting the node mid-recording. Re-running this script
+# WITHOUT --kill-existing while a node is up only re-opens RViz: it runs no
+# yawcheck and touches neither the device nor the recorder.
 #
 # If an odom_node is ALREADY running, this attaches to it: it opens RViz only
 # and leaves the node — and the path it has accumulated — completely alone.
@@ -35,9 +61,11 @@ KILL_EXISTING=0
 ALLOW_MULTIPLE=0
 NO_ATTACH=0
 WANT_RVIZ=1
+WITH_RECORDER=0
 for a in "$@"; do
   case "$a" in
     --kill-existing)  KILL_EXISTING=1 ;;
+    --with-recorder)  WITH_RECORDER=1 ;;
     --allow-multiple) ALLOW_MULTIPLE=1 ;;
     --no-attach)      NO_ATTACH=1 ;;
     # Convenience aliases. The node's setting is a launch ARGUMENT, not a
@@ -140,9 +168,15 @@ if [[ -n "$existing" ]]; then
     fi
     echo "[byd-drive] restarting it on the new build. Its drive so far is saved on" >&2
     echo "[byd-drive] shutdown; the live path resets to the origin." >&2
+    # Implicit restart: same accepted reboot risk as an explicit --kill-existing
+    # for a recorder that is already running (see the header).
     KILL_EXISTING=1
   fi
   if [[ "$KILL_EXISTING" == "1" ]]; then
+    # ACCEPTED RISK: this does NOT touch a running e2e recorder, but the restart
+    # below re-runs byd_yawcheck.sh, which may reboot the device and kill that
+    # recorder mid-bag with no clean stop or pull. Reached both by --kill-existing
+    # and by the automatic stale-build restart above. Documented in the header.
     echo "[byd-drive] stopping it" >&2
     # shellcheck disable=SC2086
     kill $existing 2>/dev/null || true
@@ -168,6 +202,15 @@ if [[ -n "$existing" ]]; then
     echo "" >&2
     echo "[byd-drive] not starting a second node — two would publish to the same" >&2
     echo "[byd-drive] topics with independent integrator state and make the path jump." >&2
+    if [[ "$WITH_RECORDER" == "1" ]]; then
+      # This path only exec's RViz, so there would be no Ctrl-C handler left to
+      # stop and pull a recorder. Refuse rather than start one nobody stops.
+      echo "[byd-drive] --with-recorder refused: a node is already running, and this" >&2
+      echo "[byd-drive] invocation would only re-open RViz. To record, Ctrl-C the running" >&2
+      echo "[byd-drive] session and start a new one with --with-recorder. To just re-open" >&2
+      echo "[byd-drive] RViz, re-run without --with-recorder (touches no recorder)." >&2
+      exit 1
+    fi
     if [[ "$NO_ATTACH" == "1" ]]; then
       echo "[byd-drive] --no-attach: doing nothing. Use --kill-existing to replace it," >&2
       echo "[byd-drive] or --allow-multiple to run two anyway." >&2
@@ -197,9 +240,22 @@ fi
 # roughly daily, silently reverting CS.yawRate to 0.0. Catch that here, before
 # a drive, rather than discovering it afterwards from a flat `measured` track.
 # Fast path is one ssh + md5 (~0.5 s); only a mismatch costs a redeploy+reboot.
+# With --with-recorder this MUST stay before the recorder start below: a reboot
+# triggered here then cannot kill a recorder, because none is running yet.
 "$SCRIPT_DIR/byd_yawcheck.sh" "$DEVICE_IP"
 
 "$SCRIPT_DIR/byd_ensure_cereal_server.sh" "$DEVICE_IP"
+
+if [[ "$WITH_RECORDER" == "1" ]]; then
+  # shellcheck source=byd_recorder_lib.sh
+  source "$SCRIPT_DIR/byd_recorder_lib.sh"
+  RECORDER_TAG="[byd-drive/recorder]"
+  if ! recorder_start "$DEVICE_IP"; then
+    echo "[byd-drive] --with-recorder: the recorder did not start, so the node is NOT" >&2
+    echo "[byd-drive] being launched. Fix the cause above, or drive without --with-recorder." >&2
+    exit 1
+  fi
+fi
 
 # ROS's setup.bash references unset vars (AMENT_TRACE_SETUP_FILES and friends),
 # so `set -u` makes sourcing it fail outright. Relax nounset just for these two
@@ -212,4 +268,29 @@ source "$HOME/ros2_ws/install/setup.bash"
 set -u
 
 echo "[byd-drive] launching odom + RViz against ${DEVICE_IP} ..."
-exec ros2 launch byd_odom_ros odom_rviz.launch.py host:="$DEVICE_IP" ${EXTRA[@]+"${EXTRA[@]}"}
+if [[ "$WITH_RECORDER" != "1" ]]; then
+  exec ros2 launch byd_odom_ros odom_rviz.launch.py host:="$DEVICE_IP" ${EXTRA[@]+"${EXTRA[@]}"}
+fi
+
+# --with-recorder only: launch in the FOREGROUND (not exec, and never in the
+# background -- a background job of a non-interactive shell ignores SIGINT, so
+# Ctrl-C could not stop it), so this shell survives to stop the recorder after.
+# Ctrl-C reaches ros2 launch as usual; the trap only records that it happened.
+# `|| rc=$?`: the node sometimes exits 1 at shutdown, and set -e must not end
+# this script before the recorder is stopped.
+GOT_INT=0
+trap 'GOT_INT=1' INT
+rc=0
+ros2 launch byd_odom_ros odom_rviz.launch.py host:="$DEVICE_IP" ${EXTRA[@]+"${EXTRA[@]}"} || rc=$?
+if [[ "$GOT_INT" == "1" ]]; then
+  echo "[byd-drive] node stopped (launch exit $rc). Stopping the recorder and pulling the session..."
+  prc=0
+  recorder_stop_and_pull "$DEVICE_IP" "$RECORDER_SESSION_ID" || prc=$?
+  exit $prc
+fi
+# Ended without our Ctrl-C: replaced via --kill-existing from another terminal,
+# crashed, or failed to start. Leave the recorder alone, by design.
+echo "[byd-drive] launch ended WITHOUT Ctrl-C (exit $rc). The recorder is LEFT RUNNING" >&2
+echo "[byd-drive] on purpose (session $RECORDER_SESSION_ID)." >&2
+recorder_print_stop_help "$DEVICE_IP" "$RECORDER_REMOTE_SESSION"
+exit $rc

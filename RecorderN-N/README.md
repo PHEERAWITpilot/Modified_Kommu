@@ -112,6 +112,44 @@ SIGTERM that recorder and list md5s, one scp, then every file is md5-verified.
 If the stop ssh fails the recorder keeps recording and stops itself on low
 disk. Never calls `byd_drive.sh`; nothing is deleted from the device.
 
+Still the standalone way to record without the odom node. Since 2026-09-27
+its start and stop-and-pull steps live in `byd_recorder_lib.sh`, which
+`byd_drive.sh --with-recorder` sources too, so both run the same code. Two
+behaviour changes came with that: it refuses to start (and prints the command
+to stop the other one) if a recorder is already running on the device, and a
+failed `scp` now says so and prints a retry command instead of exiting
+silently with a partial copy.
+
+### 3b. `byd_drive.sh <device-ip> --with-recorder` — odom node + recorder together (2026-09-27)
+
+Opt-in. Without the flag `byd_drive.sh` behaves exactly as before: same final
+`exec ros2 launch`, no extra ssh.
+
+- **Order:** `byd_yawcheck.sh` -> `byd_ensure_cereal_server.sh` -> recorder
+  start (`recorder_start`) -> `ros2 launch` in the foreground. The recorder
+  starts only after this invocation's yawcheck is done, so a reboot that
+  yawcheck triggers cannot kill it.
+- **Refuses loudly, node not launched,** if the recorder cannot start: disk
+  low, `can` msgq reader slots used up, device copy out of date, or a recorder
+  already running (it is never taken over; the stop command is printed).
+- **Refused when a node is already running**, because that path only
+  re-opens RViz and has nowhere to stop a recorder.
+- **Ctrl-C:** the node shuts down, then the recorder is stopped, the session
+  pulled to `~/Desktop/ROSbag/end-end/<id>/` and md5-verified
+  (`recorder_stop_and_pull`). This can take minutes on slow WiFi.
+- **Launch ends without Ctrl-C** (node replaced from another terminal, or
+  crashed): the recorder is left running on purpose and the stop command is
+  printed.
+- **Accepted risk, not a bug:** a node restart re-runs `byd_yawcheck.sh`,
+  which may reboot the device and kill a running recorder mid-bag with no
+  clean stop or pull. Both `--kill-existing` and the automatic restart after a
+  rebuild (stale node) do this. To protect a recording, Ctrl-C the whole
+  session and start a new one. Re-running `byd_drive.sh` without
+  `--kill-existing` only re-opens RViz and touches neither the device nor the
+  recorder.
+- Session ids use the clock of the machine that runs it: UTC inside the
+  container, local time on the host.
+
 ### 4. Offline position/heading — the accepted approach
 
 Written into every session's `README.txt`, so it travels with the data:
@@ -153,6 +191,25 @@ Integrator.step(v, r, dt)          # forward gear assumed
 - Forced low disk: stopped at the first check, marker written, bag readable.
 - Manual SIGTERM: exited in ~2 s, bag complete.
 
+`byd_drive.sh --with-recorder` (2026-09-27), in a throwaway container with the
+real recorder on the device and yawcheck, ensure-cereal-server and `ros2`
+stubbed out (no node, no reboot risk). First real use: the drive of
+2026-09-27 17:53 UTC (`./byd_drive.sh 192.168.1.50 --with-recorder`, session
+`20260927-175347`, odom run `2026/09/27/1753`), stopped with Ctrl-C and pulled
+complete with every file md5-verified.
+- without the flag: `exec` still replaces the shell, same launch args, 0 ssh
+  calls;
+- with the flag: yawcheck -> ensure -> recorder -> launch; Ctrl-C (sent to the
+  whole process group, like a terminal) stops, pulls and md5-verifies; 3
+  device touches;
+- launch ending on its own leaves the recorder running and prints a stop
+  command that was then run verbatim and worked;
+- a second `--with-recorder` while one records is refused, no session folder
+  created, node not launched;
+- with a node already running `--with-recorder` is refused, and without the
+  flag it still re-attaches RViz with 0 ssh calls;
+- `byd_record_session.sh` after the refactor: full start/stop/pull/verify.
+
 ---
 
 ## Open items — found 2026-09-24
@@ -184,10 +241,13 @@ Integrator.step(v, r, dt)          # forward gear assumed
     carstate.py                         unchanged f8a97e6b (= live device)
     byd_yaw_sensor_probe.py             unchanged
   laptop-side/
-    byd_record_session.sh               NEW
+    byd_record_session.sh               NEW, standalone recorder session (9f5c87a3, 2026-09-27)
+    byd_recorder_lib.sh                 NEW 2026-09-27, start + stop-and-pull shared by
+                                        byd_record_session.sh and byd_drive.sh (eec2cdd1)
+    byd_drive.sh                        CHANGED 2026-09-27: --with-recorder (2359b523)
     byd_odom_ros/                       odom_node.py CHANGED, track_a_core.py NEW
                                         (launch, rviz: 09-16 versions)
-    byd_drive.sh, byd_odom_replay.py    09-16 versions
+    byd_odom_replay.py                  09-16 version
     byd_ensure_cereal_server.sh, byd_rviz.sh, byd_replay.sh,
     byd_yawcheck.sh, byd_odom_plot.py   unchanged
     tests/                              + test_track_a_core.py
@@ -205,6 +265,11 @@ ODOM_RECORD_DIR=~/Desktop/Kommu.AI/Odom_record python3 laptop-side/tests/test_tr
 
 # device recorder
 scp device-side/byd_e2e_recorder.py device-side/byd_road_camera_rosbag_recorder.py kommu@<device-ip>:/data/kommu_tools/
-cp laptop-side/byd_record_session.sh ~/Desktop/Kommu.AI/claude/
-./byd_record_session.sh <device-ip>                # Ctrl-C to stop and pull
+cp laptop-side/byd_record_session.sh laptop-side/byd_recorder_lib.sh laptop-side/byd_drive.sh ~/Desktop/Kommu.AI/claude/
+./byd_record_session.sh <device-ip>                # recorder only; Ctrl-C to stop and pull
+./byd_drive.sh <device-ip> --with-recorder         # odom node + recorder; Ctrl-C stops both, then pulls
 ```
+
+`byd_recorder_lib.sh` must sit next to both scripts: they `source` it. The
+recorder needs a free-ish `can` msgq: turn the car off and on (card restart)
+if earlier sessions used up reader slots.
